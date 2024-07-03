@@ -3,11 +3,11 @@
 Dive into the world of generative AI! Packed with in-depth notes and thrilling projects, this repository is your go-to guide for mastering the latest in generative AI. Stay ahead of the curve with cutting-edge advancements and unleash your creativity in areas like content generation, natural language processing, and synthetic data creation. Explore the limitless possibilities of generative AI today!
 
 ## Courses
-### [How_Diffusion_Models_Works]() (DeepLearning.AI)
+### [How Diffusion Models Works]() (DeepLearning.AI)
 - Create your own diffusion model from scratch.
 - Diffusion process and the models driving it.
 - Pre-built models and APIs.
-- Sampling, training diffusion models, building neural networks for noise prediction
+- Sampling (DDPM to DDIM), training diffusion models, building neural networks for noise prediction (Unet).
 - Adding context for personalized image generation.
  
 
