@@ -13,7 +13,7 @@ Dive into the world of generative AI! Packed with in-depth notes and thrilling p
 
  ### [Diffusion Models Course](https://huggingface.co/learn/diffusion-course/unit0/1) (by Hugging Face)
  
- #### [More Info](https://huggingface.co/learn/diffusion-course/unit0/1)
+ #### Course: [More Info](https://huggingface.co/learn/diffusion-course/unit0/1)
 
 ## Disclaimer
 Copyright of all materials in thoses courses belongs to HuggingFace, DeepLearning.AI and can only be used or distributed for educational purpose. You may not use or distribute them for commercial purposes.
