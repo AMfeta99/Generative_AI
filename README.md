@@ -10,7 +10,10 @@ Dive into the world of generative AI! Packed with in-depth notes and thrilling p
 - Sampling (DDPM to DDIM), training diffusion models, building neural networks for noise prediction (Unet).
 - Adding context for personalized image generation.
 #### Course Certificate: [Link](https://learn.deeplearning.ai/accomplishments/66cefb99-0382-4ebf-9379-84032f7d1249?usp=sharing) ; [More Info](https://www.deeplearning.ai/short-courses/how-diffusion-models-work/).
+
+ ### [Diffusion Models Course](https://huggingface.co/learn/diffusion-course/unit0/1) (by Hugging Face)
  
+ #### [More Info](https://huggingface.co/learn/diffusion-course/unit0/1)
 
 ## Disclaimer
 Copyright of all materials in thoses courses belongs to HuggingFace, DeepLearning.AI and can only be used or distributed for educational purpose. You may not use or distribute them for commercial purposes.
