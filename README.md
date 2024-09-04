@@ -7,6 +7,17 @@ Dive into the world of generative AI! Packed with in-depth notes and thrilling p
   - [Projects](#Projects)
   - [Acknowledgements](#Acknowledgements)
 
+## Topics_covered
+- Comprehensive Overview of Generative Models
+- Evaluation Metrics
+- Deep Dive into Variational Autoencoders (VAEs) and Generative Adversarial Networks (GANs)
+- Exploration of Advanced GAN Variants like StyleGAN and CycleGAN
+- Diffusion Models and their Advantages Over GANs
+- Implementation Using Hugging Face Diffusers
+- State-of-the-Art Fine-Tuning, Guidance, and Conditioning Methods
+- Specialized Applications with Stable Diffusion: Inpainting, Super-Resolution, and More
+- Cutting-Edge Techniques for Faster Sampling, Enhanced Training, etc
+
 ## Courses
 ### [How Diffusion Models Works](https://github.com/AMfeta99/Generative_AI/tree/main/DDPM_DDIM) (DeepLearning.AI)
 - Create your own diffusion model from scratch.
