@@ -8,7 +8,7 @@ Dive into the world of generative AI! Packed with in-depth notes and thrilling p
   - [Projects](#Projects)
   - [Acknowledgements](#Acknowledgements)
 
-### Topics_covered
+## Topics_covered
 - Comprehensive Overview of Generative Models
 - Evaluation Metrics
 - Deep Dive into Variational Autoencoders (VAEs) and Generative Adversarial Networks (GANs)
@@ -29,6 +29,13 @@ Dive into the world of generative AI! Packed with in-depth notes and thrilling p
 #### Course Certificate: [Link](https://learn.deeplearning.ai/accomplishments/66cefb99-0382-4ebf-9379-84032f7d1249?usp=sharing) ; [More Info](https://www.deeplearning.ai/short-courses/how-diffusion-models-work/).
 
  ### [Diffusion Models Course](https://huggingface.co/learn/diffusion-course/unit0/1) (by Hugging Face)
+ - Explore different types of diffusion models, compare with GANs, and understand their strengths and real-world applications.
+ - Implement diffusion models using popular frameworks (Diffusers)
+ - Building from scratch versus using established methods like DDPM.
+ - SOTA techniques for fine-tuning diffusion models, incorporating guidance and conditioning to enhance control and accuracy.
+ - Stable Diffusion, focusing on latent diffusion, text conditioning, and tasks (super-resolution, inpainting, and depth-to-image).
+ - Explore improvements in training, like faster sampling via distillation
+ - Methods for video and audio generation
  
  #### Course: [More Info](https://huggingface.co/learn/diffusion-course/unit0/1)
 
