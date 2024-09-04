@@ -4,10 +4,11 @@ Dive into the world of generative AI! Packed with in-depth notes and thrilling p
 
 ### Index:
   - [Courses](#Courses)
+  - [Topics_covered](#Topics_covered)
   - [Projects](#Projects)
   - [Acknowledgements](#Acknowledgements)
 
-## Topics_covered
+### Topics_covered
 - Comprehensive Overview of Generative Models
 - Evaluation Metrics
 - Deep Dive into Variational Autoencoders (VAEs) and Generative Adversarial Networks (GANs)
