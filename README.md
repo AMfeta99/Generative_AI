@@ -30,12 +30,12 @@ Dive into the world of generative AI! Packed with in-depth notes and thrilling p
 
  ### [Diffusion Models Course](https://huggingface.co/learn/diffusion-course/unit0/1) (by Hugging Face)
  - Explore different types of diffusion models, compare with GANs, and understand their strengths and real-world applications.
- - Implement diffusion models using popular frameworks (Diffusers)
+ - Implement diffusion models using popular frameworks (Diffusers).
  - Building from scratch versus using established methods like DDPM.
  - SOTA techniques for fine-tuning diffusion models, incorporating guidance and conditioning to enhance control and accuracy.
  - Stable Diffusion, focusing on latent diffusion, text conditioning, and tasks (super-resolution, inpainting, and depth-to-image).
- - Explore improvements in training, like faster sampling via distillation
- - Methods for video and audio generation
+ - Explore improvements in training, like faster sampling via distillation.
+ - Methods for video and audio generation.
  
  #### Course: [More Info](https://huggingface.co/learn/diffusion-course/unit0/1)
 
@@ -43,6 +43,6 @@ Dive into the world of generative AI! Packed with in-depth notes and thrilling p
 Copyright of all materials in thoses courses belongs to HuggingFace, DeepLearning.AI and can only be used or distributed for educational purpose. You may not use or distribute them for commercial purposes.
 
 ## Acknowledgements
-- https://huggingface.co/learn/diffusion-course/unit0/1
-- https://huggingface.co/learn/computer-vision-course/unit5/generative-models/introduction/introduction
+- [Hugging Face Diffusion Course](https://huggingface.co/learn/diffusion-course/unit0/1)
+- [Generative_models from CV course](https://huggingface.co/learn/computer-vision-course/unit5/generative-models/introduction/introduction)
 - https://huggingface.co/learn/computer-vision-course/unit10/introduction
