@@ -1,6 +1,7 @@
 # Text2Img 
 
-![image](https://github.com/user-attachments/assets/418bab09-74e5-4874-a1e8-584d9d80c794)
+![image](https://github.com/user-attachments/assets/abf2b2c1-48d3-4c6d-b3c1-643dc3e45116)
+
 
  ### Index:
 - [Literature](#Literature)
