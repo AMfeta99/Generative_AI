@@ -46,7 +46,7 @@ Copyright of all materials in thoses courses belongs to HuggingFace, DeepLearnin
 
 ## Projects:
 Here are links to my Generative AI projects: 
-- ### [Color Wizard](https://github.com/AMfeta99/)
+- ### [Color Wizard](https://github.com/AMfeta99/Generative_AI/tree/main/ColorWizard)
    "I see your true colors shining.." The goal is to give literal sense to this song by color B/W images. Feels like magic, right? Let's relive memories, One Color at a Time!
 
 ## Acknowledgements
