@@ -32,6 +32,13 @@ SSIM (Structural Similarity Index)
 LPIPS (Learned Perceptual Image Patch Similarity)
 FID (Fréchet Inception Distance)
 
+## Setup
+## Methods
+### Dataset
+### Approaches
+### Results
+
+## Repository_files
 
 ## Acknowledgements
 
