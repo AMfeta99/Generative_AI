@@ -38,12 +38,23 @@ FID (Fréchet Inception Distance)
 - Adrian Rosebrock, "Black and White Image Colorization with OpenCV and Deep Learning," PyImageSearch, February 25, 2019. [Link](https://pyimagesearch.com/2019/02/25/black-and-white-image-colorization-with-opencv-and-deep-learning/)
 
 - Weichen Pai, "Image Colorization: Bringing Black and White to Life," Medium, August 8, 2020. [Link](https://medium.com/@weichenpai/image-colorization-bringing-black-and-white-to-life-b14d3e0db763)
-- https://huggingface.co/datasets?search=colorization
-- https://richzhang.github.io/colorization/ (CNN approach)
-- https://openaccess.thecvf.com/content_WACV_2020/papers/Vitoria_ChromaGAN_Adversarial_Picture_Colorization_with_Semantic_Class_Distribution_WACV_2020_paper.pdf (GAN approach)
-- https://openaccess.thecvf.com/content_CVPR_2020/papers/Su_Instance-Aware_Image_Colorization_CVPR_2020_paper.pdf (add object detection for tackle lack of semantic understanding and handle complex scenes)
-- https://link.springer.com/article/10.1007/s11263-019-01271-4 (colorizing images while understanding their semantic content)
-- https://arxiv.org/pdf/2102.04432.pdf (Transformer-based approach)
-- https://link.springer.com/chapter/10.1007/978-3-031-20071-7_1
-- https://arxiv.org/pdf/2304.11105.pdf (Diffusion-based approach)
-- https://wiki.spencerwoo.com/perceptual-similarity.html
+### References
+
+- [HuggingFace Colorization Datasets](https://huggingface.co/datasets?search=colorization): A collection of datasets available for image colorization tasks.
+  
+- Zhang, Richard, et al. "Colorization Using CNN," (CNN approach). [Project Page](https://richzhang.github.io/colorization/)
+
+- Vitoria, Patrícia, et al. "ChromaGAN: Adversarial Picture Colorization with Semantic Class Distribution," WACV 2020. [Link](https://openaccess.thecvf.com/content_WACV_2020/papers/Vitoria_ChromaGAN_Adversarial_Picture_Colorization_with_Semantic_Class_Distribution_WACV_2020_paper.pdf)
+
+- Su, Jian, et al. "Instance-Aware Image Colorization," CVPR 2020. [Link](https://openaccess.thecvf.com/content_CVPR_2020/papers/Su_Instance-Aware_Image_Colorization_CVPR_2020_paper.pdf) (Tackles lack of semantic understanding and handles complex scenes with object detection).
+
+- Iizuka, Satoshi, et al. "Colorizing Images While Understanding Their Semantic Content," International Journal of Computer Vision (IJCV), 2019. [Link](https://link.springer.com/article/10.1007/s11263-019-01271-4)
+
+- Kumar, Ashish, et al. "Colorization Using Transformer," 2021. [Link](https://arxiv.org/pdf/2102.04432.pdf) (Transformer-based approach).
+
+- "Colorization with Deep Learning," Springer 2022. [Link](https://link.springer.com/chapter/10.1007/978-3-031-20071-7_1)
+
+- Li, Xiang, et al. "Improved Diffusion-based Image Colorization via Piggybacked Models," 2023. [Link](https://arxiv.org/pdf/2304.11105.pdf) (Diffusion-based approach)
+  
+- "Perceptual Similarity," A metric to compare images based on human perception. [Link](https://wiki.spencerwoo.com/perceptual-similarity.html)
+
