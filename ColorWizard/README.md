@@ -2,11 +2,13 @@
 "I see your true colors shining.." This project aims to give literal sense to this song by color B/W images. Feels like magic, right? Let's relive memories, One Color at a Time!
 
  ### Index:
-- [Dataset](#Dataset)
-- [SOTA_&_Approaches](#SOTA_&_Approaches)
-- [Setup](#Setup)
-- [Usage](#usage)
+- [SOTA_Overview](#SOTA_Overview)
+- [Metrics](#Metrics)
 - [Challenges](#Challenges)
+- [Setup](#Setup)
+- [Dataset](#Dataset)
+- [Methods](#Methods)
+- [Results](#Results)
 - [Repository_files](#Repository_files)
 - [Acknowledgements](#Acknowledgements)
 
