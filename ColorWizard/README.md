@@ -38,3 +38,4 @@ Computational Complexity
 - https://richzhang.github.io/colorization/ (CNN approach)
 - https://openaccess.thecvf.com/content_WACV_2020/papers/Vitoria_ChromaGAN_Adversarial_Picture_Colorization_with_Semantic_Class_Distribution_WACV_2020_paper.pdf (GAN approach)
 - https://openaccess.thecvf.com/content_CVPR_2020/papers/Su_Instance-Aware_Image_Colorization_CVPR_2020_paper.pdf (add object detection for tackle lack of semantic understanding and handle complex scenes)
+- https://link.springer.com/article/10.1007/s11263-019-01271-4 (colorizing images while understanding their semantic content)
