@@ -7,10 +7,12 @@
 - [Challenges](#Challenges)
 - [Setup](#Setup)
 - [Methods](#Methods)
-           - [Dataset](#Dataset)
-           - [Results](#Results)
+  - [Dataset](#Dataset)
+  - [Approaches](#Approaches)
+  - [Results](#Results)
 - [Repository_files](#Repository_files)
 - [Acknowledgements](#Acknowledgements)
+
 
 ![img_color_2](https://github.com/user-attachments/assets/50463b1e-6dbb-480c-85df-f9200e57a364)
 
