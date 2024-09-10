@@ -42,8 +42,8 @@ FID (Fréchet Inception Distance)
 
 - [HuggingFace Colorization Datasets](https://huggingface.co/datasets?search=colorization): A collection of datasets available for image colorization tasks.
   
-- Zhang, Richard, et al. "Colorization Using CNN" . [Link](https://richzhang.github.io/colorization/)(CNN approach).
-- 
+- Zhang, Richard, et al. "Colorization Using CNN" . [Link](https://richzhang.github.io/colorization/) (CNN approach).
+  
 - Vitoria, Patrícia, et al. "ChromaGAN: Adversarial Picture Colorization with Semantic Class Distribution," WACV 2020. [Link](https://openaccess.thecvf.com/content_WACV_2020/papers/Vitoria_ChromaGAN_Adversarial_Picture_Colorization_with_Semantic_Class_Distribution_WACV_2020_paper.pdf) (GANs Approach)
 
 - Su, Jian, et al. "Instance-Aware Image Colorization," CVPR 2020. [Link](https://openaccess.thecvf.com/content_CVPR_2020/papers/Su_Instance-Aware_Image_Colorization_CVPR_2020_paper.pdf) (Tackles lack of semantic understanding and handles complex scenes with object detection).
