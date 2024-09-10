@@ -1,4 +1,5 @@
 # Text2Img 
+[project ideia, still in initial stages]
 
 ![image](https://github.com/user-attachments/assets/abf2b2c1-48d3-4c6d-b3c1-643dc3e45116)
 
