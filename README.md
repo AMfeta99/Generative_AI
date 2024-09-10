@@ -44,6 +44,11 @@ Dive into the world of generative AI! Packed with in-depth notes and thrilling p
 ### Disclaimer
 Copyright of all materials in thoses courses belongs to HuggingFace, DeepLearning.AI and can only be used or distributed for educational purpose. You may not use or distribute them for commercial purposes.
 
+## Projects:
+Here are links to my Generative AI projects: 
+- ### [Color Wizard](https://github.com/AMfeta99/)
+   "I see your true colors shining.." The goal is to give literal sense to this song by color B/W images. Feels like magic, right? Let's relive memories, One Color at a Time!
+
 ## Acknowledgements
 - [Hugging Face Diffusion Course](https://huggingface.co/learn/diffusion-course/unit0/1)
 - [Generative_models from CV course](https://huggingface.co/learn/computer-vision-course/unit5/generative-models/introduction/introduction)
