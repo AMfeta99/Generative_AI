@@ -64,3 +64,5 @@ FID (Fréchet Inception Distance)
   
 - "Perceptual Similarity," A metric to compare images based on human perception. [Link](https://wiki.spencerwoo.com/perceptual-similarity.html)
 - https://github.com/MarkMoHR/Awesome-Image-Colorization
+- https://github.com/Ye11ow-Flash/ColorIt
+- https://github.com/kainoj/colnet
