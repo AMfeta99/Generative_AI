@@ -2,7 +2,7 @@
 "I see your true colors shining.." This project aims to give literal sense to this song by color B/W images. Feels like magic, right? Let's relive memories, One Color at a Time!
 
  ### Index:
-- [Literature]
+- [Literature](#Literature)
   - [SOTA_Overview](#SOTA_Overview)
   - [Challenges](#Challenges)
   - [Metrics](#Metrics)
@@ -16,17 +16,17 @@
 
 
 ![img_color_2](https://github.com/user-attachments/assets/50463b1e-6dbb-480c-85df-f9200e57a364)
+## Literature
+### SOTA_Overview
 
-## SOTA_Overview
-
-## Challenges
+### Challenges
 Loss of Information
 Ambiguity 
 Lack of Semantic Understanding
 Perceptual Color Constancy
 Computational Complexity
 
-## Metrics
+### Metrics
 
 
 ## Acknowledgements
