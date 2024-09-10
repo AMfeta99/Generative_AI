@@ -40,3 +40,5 @@ Computational Complexity
 - https://openaccess.thecvf.com/content_CVPR_2020/papers/Su_Instance-Aware_Image_Colorization_CVPR_2020_paper.pdf (add object detection for tackle lack of semantic understanding and handle complex scenes)
 - https://link.springer.com/article/10.1007/s11263-019-01271-4 (colorizing images while understanding their semantic content)
 - https://arxiv.org/pdf/2102.04432.pdf (Transformer-based approach)
+- https://link.springer.com/chapter/10.1007/978-3-031-20071-7_1
+- https://arxiv.org/pdf/2304.11105.pdf (Diffusion-based approach)
