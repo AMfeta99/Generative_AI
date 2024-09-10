@@ -27,6 +27,10 @@ Perceptual Color Constancy
 Computational Complexity
 
 ### Metrics
+PSNR (Peak Signal-to-Noise Ratio)
+SSIM (Structural Similarity Index)
+LPIPS (Learned Perceptual Image Patch Similarity)
+FID (Fréchet Inception Distance)
 
 
 ## Acknowledgements
@@ -42,3 +46,4 @@ Computational Complexity
 - https://arxiv.org/pdf/2102.04432.pdf (Transformer-based approach)
 - https://link.springer.com/chapter/10.1007/978-3-031-20071-7_1
 - https://arxiv.org/pdf/2304.11105.pdf (Diffusion-based approach)
+- https://wiki.spencerwoo.com/perceptual-similarity.html
