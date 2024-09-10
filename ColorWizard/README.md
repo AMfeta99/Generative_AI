@@ -63,4 +63,4 @@ FID (Fréchet Inception Distance)
 - Li, Xiang, et al. "Improved Diffusion-based Image Colorization via Piggybacked Models," 2023. [Link](https://arxiv.org/pdf/2304.11105.pdf) (Diffusion-based approach)
   
 - "Perceptual Similarity," A metric to compare images based on human perception. [Link](https://wiki.spencerwoo.com/perceptual-similarity.html)
-
+- https://github.com/MarkMoHR/Awesome-Image-Colorization
