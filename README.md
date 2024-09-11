@@ -48,9 +48,9 @@ Copyright of all materials in thoses courses belongs to HuggingFace, DeepLearnin
 
 ## Projects:
 Here are links to my Generative AI projects: 
-- ### [Color Wizard](https://github.com/AMfeta99/Generative_AI/tree/main/ColorWizard)
+- ### [Color Wizard](https://github.com/AMfeta99/Generative_AI/tree/main/ColorWizard) (WIP)
    "I see your true colors shining.." The goal is to give literal sense to this song by color B/W images. Feels like magic, right? Let's relive memories, One Color at a Time!
-- ### [Magic Recipe](https://github.com/AMfeta99/Generative_AI/tree/main/Text2Img)
+- ### [Magic Recipe](https://github.com/AMfeta99/Generative_AI/tree/main/Text2Img) (WIP)
   Walt Disney used to say, 'If you can dream it, you can do it!' I suggest a slight change to this famous quote: 'If you can describe it, we can do it!😜"
 
 ## Acknowledgements
