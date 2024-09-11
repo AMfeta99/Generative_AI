@@ -1,4 +1,4 @@
-# Text2Img 
+# Magic Recipe
 [project ideia, still in initial stages]
 
 Walt Disney used to say, 'If you can dream it, you can do it!'
