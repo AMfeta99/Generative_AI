@@ -24,11 +24,11 @@ Image Colorization is the process of adding color to B/W images. This problem is
 ### SOTA_Overview
 
 ### Challenges
-Loss of Information
-Ambiguity 
-Lack of Semantic Understanding
-Perceptual Color Constancy
-Computational Complexity
+- ### 1. Loss of Information
+- ### 2. Ambiguity 
+- ### 3. Lack of Semantic Understanding
+- ### 4. Perceptual Color Constancy
+- ### 5. Computational Complexity
 
 ### Metrics
 PSNR (Peak Signal-to-Noise Ratio)
