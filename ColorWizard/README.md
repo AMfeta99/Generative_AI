@@ -25,6 +25,8 @@ Image Colorization is the process of adding color to B/W images. This problem is
 
 ### Challenges
 - ### 1. Loss of Information
+  the richness of the information capture by color imges is much whider than the grayscale images. Grayscale images, only retain the luminance information, essentially representing how bright or dark each pixel is. On the other hand, RGB images encode the world through 3 channels through a complete spectrum of light. This loss of information is the ultimate obstacle for colorization algorithms. This must be sophisticated enough so they can infer/reconstruct based on the remaining grayscale clues and possibly any additional contextual information available.
+  
 - ### 2. Ambiguity 
 - ### 3. Lack of Semantic Understanding
 - ### 4. Perceptual Color Constancy
