@@ -1,4 +1,4 @@
-# Color Wizard ✨
+# Color Wizard 🎨
 [project ideia, still in initial stages]
 
 "I see your true colors shining.." This project aims to give literal sense to this song by color B/W images. Feels like magic, right? Let's relive memories, One Color at a Time!
