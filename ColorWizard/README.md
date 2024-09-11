@@ -29,7 +29,9 @@ Image Colorization is the process of adding color to B/W images. This problem is
   
   This loss of information is the ultimate obstacle for colorization algorithms. This must be sophisticated enough so they can infer/reconstruct based on the remaining grayscale clues and possibly any additional contextual information available.
   
-- ### 2. Ambiguity 
+- ### 2. Ambiguity
+  Black-and-white images represent only luminance, or brightness, which introduces ambiguity since the same shade of gray can correspond to a wide range of colors in the real world. Colorization algorithms face the challenging task of assigning colors to grayscale pixels, often relying on additional contextual information or making educated guesses to produce a realistic result.
+  
 - ### 3. Lack of Semantic Understanding
 - ### 4. Perceptual Color Constancy
 - ### 5. Computational Complexity
@@ -75,3 +77,4 @@ FID (Fréchet Inception Distance)
 - https://github.com/Ye11ow-Flash/ColorIt
 - https://github.com/kainoj/colnet
 - https://samgoree.github.io/2021/04/21/colorization_companion.html
+- https://www.researchgate.net/publication/353854254_Grayscale_Image_Colorization_Methods_Overview_and_Evaluation
