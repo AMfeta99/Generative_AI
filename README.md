@@ -21,7 +21,7 @@ Dive into the world of generative AI! Packed with in-depth notes and thrilling p
 - Specialized Applications with Stable Diffusion: Inpainting, Super-Resolution, and More
 - Cutting-Edge Techniques for Faster Sampling, Enhanced Training, etc
   
-Find all my notes: [Link](https://github.com/AMfeta99/Generative_AI/blob/main/Gen_AI_notes.pdf)
+Find my notes: [Link](https://github.com/AMfeta99/Generative_AI/blob/main/Gen_AI_notes.pdf)
 
 ## Courses
 ### [How Diffusion Models Works](https://github.com/AMfeta99/Generative_AI/tree/main/DDPM_DDIM) (DeepLearning.AI)
