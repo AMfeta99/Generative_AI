@@ -19,6 +19,8 @@
 - [Acknowledgements](#Acknowledgements)
   
 ## Literature
+Image Colorization is the process of adding color to B/W images. This problem is framed as being a "inverse problem" since the goal is to recover higher dimensional data (a color image) from its low-dimensional representation. Existing wotk on pixel-to-pixel problem (as in this case, since we want to predict color/label for each pixel) originally were done statistical models but currently deep neural network have been SOTA. 
+
 ### SOTA_Overview
 
 ### Challenges
@@ -68,3 +70,4 @@ FID (Fréchet Inception Distance)
 - https://github.com/MarkMoHR/Awesome-Image-Colorization
 - https://github.com/Ye11ow-Flash/ColorIt
 - https://github.com/kainoj/colnet
+- https://samgoree.github.io/2021/04/21/colorization_companion.html
