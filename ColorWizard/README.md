@@ -72,10 +72,17 @@ Image Colorization is the process of adding color to B/W images. This problem is
    Larger images require more processing power, while complex deep learning models needed, involve numerous calculations and parameters. Additionally, iterative optimization processes further increase computation demands. 
 
 ### Metrics
-PSNR (Peak Signal-to-Noise Ratio)
-SSIM (Structural Similarity Index)
-LPIPS (Learned Perceptual Image Patch Similarity)
-FID (Fréchet Inception Distance)
+Evaluating the quality of image colorization is complicated, so usually it involves both objective metrics & subjective human perception. Metrics provide/measure color accuracy, consistency, and alignment with the original grayscale image. However, these metrics alone are often insufficient, as the perceived quality of colorization also depends on how realistic is the result for humans.
+
+- ### PSNR (Peak Signal-to-Noise Ratio)
+  PSNR was originaly from signal comparation and measures the peak power of a signal compared to the power of corrupting noise. However have been used to quantificar image quality and compare images.
+  
+  PSNR reflets the difference between the original color image and the artificial colorized image. Higher PSNR indicates a lower difference, but it doesn’t necessarily guarantee perceptual similarity. PSNR can be misleading in evaluating image colorization quality because it measures overall intensity similarity, not color realism. As a result, it might indicate high quality even if the colors are unrealistic, as long as their overall intensity matches the ground truth.
+  
+- ### SSIM (Structural Similarity Index)
+- 
+- ### LPIPS (Learned Perceptual Image Patch Similarity)
+- ### FID (Fréchet Inception Distance)
 
 ## Setup
 ## Methods
