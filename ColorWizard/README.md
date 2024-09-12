@@ -30,6 +30,7 @@ Traditional image colorization methods include manual coloring, rule-based techn
 The main DL approaches are CNN-based and GAN-based colorization. Recent innovations have introduced transformer-based and diffusion-based networks, further enhancing colorization. Additionally, incorporating techniques such as object detection and semantic information has contributed significantly to advancements in the field.
 
 - ### 1. [CNN] - Colorization as a Classification task
+  The paper "Colorful Image Colorization" (2016) suggest to treat this problem similary to classification and use class-rebalancing at training time to increase the diversity of colors in the result. 
 
  ![image](https://github.com/user-attachments/assets/0f0a6c46-5883-41e2-abd6-56c9459e8831)
 
