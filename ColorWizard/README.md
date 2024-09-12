@@ -28,9 +28,15 @@ Image Colorization is the process of adding color to B/W images. This problem is
   The richness of the information capture by color imges is much whider than the grayscale images. Grayscale images, only retain the luminance information, essentially representing how bright or dark each pixel is. On the other hand, RGB images encode the world through 3 channels through a complete spectrum of light.
   
   This loss of information is the ultimate obstacle for colorization algorithms. This must be sophisticated enough so they can infer/reconstruct based on the remaining grayscale clues and possibly any additional contextual information available.
+
+  ![image](https://github.com/user-attachments/assets/0d876afb-4f43-414b-b07a-5ca02170edfc)
+
   
 - ### 2. Ambiguity
   Black-and-white images represent only luminance, or brightness, which introduces ambiguity since the same shade of gray can correspond to a wide range of colors in the real world. Colorization algorithms face the challenging task of assigning colors to grayscale pixels, often relying on additional contextual information or making educated guesses to produce a realistic result.
+
+![image](https://github.com/user-attachments/assets/471d31ff-307d-431b-9f74-a53b187d3e90)
+
   
 - ### 3. Lack of Semantic Understanding
   Algorithms often struggle to identiy dentify objects/materials, and their spatial relationships while coloring. Colorization algorithms may assign colors based solely on local image features, potentially leading to unrealistic color choices. For instance, it may struggle to distinguish between a brown bear and a polar bear.
