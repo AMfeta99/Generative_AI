@@ -101,7 +101,7 @@ Evaluating the quality of image colorization is complicated, so usually it invol
 - ### FID (Fréchet Inception Distance)
   FID evaluates the similarity between image distributions by comparing feature representations from a pre-trained network. It measures how closely the feature distributions of original and colorized images match, assuming that effective colorization will produce similar feature distributions.
 
-  ![image](https://github.com/user-attachments/assets/4fb17395-d97c-48ab-ac68-60b3b09cfce9)
+  <!-- ![image](https://github.com/user-attachments/assets/4fb17395-d97c-48ab-ac68-60b3b09cfce9) -->
 
 
 ## Setup
