@@ -82,7 +82,7 @@ Evaluating the quality of image colorization is complicated, so usually it invol
   <img src="https://github.com/user-attachments/assets/79dcd809-88e4-4580-9f88-f46abed12d95" alt="PSNR fails samples" style="width:80%";>
   <br>
   <em>Sample where PSNR metric fails to identify the better colorized img. 
-   The middle column has a better PSNR compared to the right column.</em>
+   <br>The middle column has a better PSNR compared to the right column.</em>
 </p>
 
 - ### SSIM (Structural Similarity Index)
