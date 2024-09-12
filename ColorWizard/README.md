@@ -43,8 +43,14 @@ Image Colorization is the process of adding color to B/W images. This problem is
 - ### 4. Perceptual Color Constancy
   Humans have the ability of compensating for variations in lighting conditions, allowing us to perceive object colors as relatively consistent despite changes in illumination. This is know as 𝐂𝐨𝐥𝐨𝐫 𝐂𝐨𝐧𝐬𝐭𝐚𝐧𝐜𝐲 and is hard to handling/mimic in the image colorization task. Since the models need to also ensure color consistent with the perceived lighting in the scene.
 
+  ![image](https://github.com/user-attachments/assets/11350c15-4323-4711-9a54-8e8a2b242459)
+
+
 - ### 5. Color Bleeding
   Color bleeding, or color inconsistency, happens in image colorization when predicted colors blend between or contaminate neighboring regions. This occurs because algorithms often rely on local image features and might struggle to distinguish between different objects with similar grayscale values, leading to unrealistic color transitions and a lack of sharp boundaries.
+  ![image](https://github.com/user-attachments/assets/e345d3c3-dd14-4a1d-a608-c79d27c8b209)
+
+
   
 - ### 6. Computational Resources
    Image colorization is a computationally intensive task due to large image size, algorithm complexity, and optimization techniques.
