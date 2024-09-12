@@ -36,7 +36,7 @@ Image Colorization is the process of adding color to B/W images. This problem is
   Algorithms often struggle to identiy dentify objects/materials, and their spatial relationships while coloring. Colorization algorithms may assign colors based solely on local image features, potentially leading to unrealistic color choices. For instance, it may struggle to distinguish between a brown bear and a polar bear.
   
 - ### 4. Perceptual Color Constancy
-  Humans have the ability of compensating for variations in lighting conditions, allowing us to perceive object colors as relatively consistent despite changes in illumination. This is know as "𝐏𝐞𝐫𝐜𝐞𝐩𝐭𝐮𝐚𝐥 𝐂𝐨𝐥𝐨𝐫 𝐂𝐨𝐧𝐬𝐭𝐚𝐧𝐜𝐲 " and is hard to handling/mimic in the image colorization task. Since the models need to also ensure color consistent with the perceived lighting in the scene. 
+  Humans have the ability of compensating for variations in lighting conditions, allowing us to perceive object colors as relatively consistent despite changes in illumination. This is know as 𝐂𝐨𝐥𝐨𝐫 𝐂𝐨𝐧𝐬𝐭𝐚𝐧𝐜𝐲 and is hard to handling/mimic in the image colorization task. Since the models need to also ensure color consistent with the perceived lighting in the scene. 
   
 - ### 5. Computational Complexity
 
