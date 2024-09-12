@@ -32,7 +32,11 @@ Image Colorization is the process of adding color to B/W images. This problem is
   
 - ### 2. Ambiguity
   Black-and-white images represent only luminance, or brightness, which introduces ambiguity since the same shade of gray can correspond to a wide range of colors in the real world. Colorization algorithms face the challenging task of assigning colors to grayscale pixels, often relying on additional contextual information or making educated guesses to produce a realistic result.
-  ![image](https://github.com/user-attachments/assets/0d876afb-4f43-414b-b07a-5ca02170edfc)
+<p align="center">
+  <img src="![image](https://github.com/user-attachments/assets/0d876afb-4f43-414b-b07a-5ca02170edfc)e" alt="Inherent Ambiguity" width="300">
+  <br>
+  <em>Inherent Ambiguity: Input Grayscale (left), Ground Truth (middle), Colorized Result (right)</em>
+</p>
 
 
   
