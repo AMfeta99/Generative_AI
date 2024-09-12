@@ -80,7 +80,7 @@ Evaluating the quality of image colorization is complicated, so usually it invol
   PSNR reflets the difference between the original color image and the artificial colorized image. Higher PSNR indicates a lower difference, but it doesn’t necessarily guarantee perceptual similarity. PSNR can be misleading in evaluating image colorization quality because it measures overall intensity similarity, not color realism. As a result, it might indicate high quality even if the colors are unrealistic, as long as their overall intensity matches the ground truth.
 
   ![image](https://github.com/user-attachments/assets/79dcd809-88e4-4580-9f88-f46abed12d95)
-
+Examples where the PSNR metric fails to identify a better colorized output. The middle column has a better PSNR compared to the right column.
   
 - ### SSIM (Structural Similarity Index)
 - 
