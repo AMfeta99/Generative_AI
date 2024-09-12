@@ -23,7 +23,9 @@ Image Colorization is the process of adding color to B/W images. This problem is
 
 ### SOTA_Overview
 
-Traditional image colorization methods include manual coloring, rule-based techniques, and color propagation approaches. However, with the advancements in deep learning, these have been largely replaced by more sophisticated methods. The main DL approaches are CNN-based and GAN-based colorization. Recent innovations have introduced transformer-based and diffusion-based networks, further enhancing colorization. Additionally, incorporating techniques such as object detection and semantic information has contributed significantly to advancements in the field.
+Traditional image colorization methods include manual coloring, rule-based techniques, and color propagation approaches. However, with the advancements in deep learning, these have been largely replaced by more sophisticated methods. 
+
+The main DL approaches are CNN-based and GAN-based colorization. Recent innovations have introduced transformer-based and diffusion-based networks, further enhancing colorization. Additionally, incorporating techniques such as object detection and semantic information has contributed significantly to advancements in the field.
 
 ### Challenges
 - ### 1. Loss of Information
