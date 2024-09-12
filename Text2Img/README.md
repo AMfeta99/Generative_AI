@@ -6,7 +6,7 @@ I suggest a slight change to this famous quote: 'If you can describe it, we can 
 
 This repository aims to experiment with SOTA methods for tex-to-img task. This journey is also a great way to develop skills in popular platforms and tools such as Hugging Face, OpenCV, Diffusers, PyTorch, Prompt Engineering, NLP.
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/abf2b2c1-48d3-4c6d-b3c1-643dc3e45116" alt="Dalli" style="width:80%";>
+  <img src="https://github.com/user-attachments/assets/abf2b2c1-48d3-4c6d-b3c1-643dc3e45116" alt="Dalli" style="width:70%";>
   <br>
   <em></em>
 </p>
