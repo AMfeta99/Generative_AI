@@ -41,7 +41,9 @@ Image Colorization is the process of adding color to B/W images. This problem is
 - ### 5. Color Bleeding
   Color bleeding, or color inconsistency, happens in image colorization when predicted colors blend between or contaminate neighboring regions. This occurs because algorithms often rely on local image features and might struggle to distinguish between different objects with similar grayscale values, leading to unrealistic color transitions and a lack of sharp boundaries.
   
-- ### 6. Computational Complexity
+- ### 6. Computational Resources
+   Image colorization is a computationally intensive task due to large image size, algorithm complexity, and optimization techniques.
+   Larger images require more processing power, while complex deep learning models needed, involve numerous calculations and parameters. Additionally, iterative optimization processes further increase computation demands. 
 
 ### Metrics
 PSNR (Peak Signal-to-Noise Ratio)
