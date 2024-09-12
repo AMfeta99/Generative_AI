@@ -42,12 +42,19 @@ Image Colorization is the process of adding color to B/W images. This problem is
   
 - ### 3. Lack of Semantic Understanding
   Algorithms often struggle to identiy dentify objects/materials, and their spatial relationships while coloring. Colorization algorithms may assign colors based solely on local image features, potentially leading to unrealistic color choices. For instance, it may struggle to distinguish between a brown bear and a polar bear.
-  ![image](https://github.com/user-attachments/assets/471d31ff-307d-431b-9f74-a53b187d3e90)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/471d31ff-307d-431b-9f74-a53b187d3e90" alt="Inherent Ambiguity" style="width:90%";>
+  <br>
+  <em>Inherent Ambiguity: Input Grayscale (left), Ground Truth (middle), Colorized Result (right)</em>
+</p>
   
 - ### 4. Perceptual Color Constancy
   Humans have the ability of compensating for variations in lighting conditions, allowing us to perceive object colors as relatively consistent despite changes in illumination. This is know as 𝐂𝐨𝐥𝐨𝐫 𝐂𝐨𝐧𝐬𝐭𝐚𝐧𝐜𝐲 and is hard to handling/mimic in the image colorization task. Since the models need to also ensure color consistent with the perceived lighting in the scene.
-
-  ![image](https://github.com/user-attachments/assets/11350c15-4323-4711-9a54-8e8a2b242459)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/11350c15-4323-4711-9a54-8e8a2b242459" alt="Semantic Understanding" style="width:90%";>
+  <br>
+  <em>Lack of Semantic Understanding: Input Grayscale (left), Colorized Result (middle), Ground Truth (right)</em>
+</p>
 
 
 - ### 5. Color Bleeding
