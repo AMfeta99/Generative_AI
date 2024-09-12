@@ -43,9 +43,9 @@ Image Colorization is the process of adding color to B/W images. This problem is
 - ### 3. Lack of Semantic Understanding
   Algorithms often struggle to identiy dentify objects/materials, and their spatial relationships while coloring. Colorization algorithms may assign colors based solely on local image features, potentially leading to unrealistic color choices. For instance, it may struggle to distinguish between a brown bear and a polar bear.
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/471d31ff-307d-431b-9f74-a53b187d3e90" alt="Inherent Ambiguity" style="width:90%";>
+  <img src="https://github.com/user-attachments/assets/471d31ff-307d-431b-9f74-a53b187d3e90" alt="Semantic Understanding" style="width:90%";>
   <br>
-  <em>Inherent Ambiguity: Input Grayscale (left), Ground Truth (middle), Colorized Result (right)</em>
+  <em>Lack of Semantic Understanding: Input Grayscale (left), Colorized Result (middle), Ground Truth (right)</em>
 </p>
   
 - ### 4. Perceptual Color Constancy
