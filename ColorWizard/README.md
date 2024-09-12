@@ -10,12 +10,14 @@
   - [SOTA_Overview](#SOTA_Overview)
   - [Challenges](#Challenges)
   - [Metrics](#Metrics)
+ <!--
 - [Setup](#Setup)
 - [Methods](#Methods)
   - [Dataset](#Dataset)
   - [Approaches](#Approaches)
   - [Results](#Results)
 - [Repository_files](#Repository_files)
+  -->
 - [Acknowledgements](#Acknowledgements)
   
 ## Literature
@@ -107,7 +109,7 @@ Evaluating the quality of image colorization is complicated, so usually it invol
 
   <!-- ![image](https://github.com/user-attachments/assets/4fb17395-d97c-48ab-ac68-60b3b09cfce9) -->
 
-
+ <!--
 ## Setup
 ## Methods
 ### Dataset
@@ -115,7 +117,7 @@ Evaluating the quality of image colorization is complicated, so usually it invol
 ### Results
 
 ## Repository_files
-
+-->
 ## Acknowledgements
 
 - Adrian Rosebrock, "Black and White Image Colorization with OpenCV and Deep Learning," PyImageSearch, February 25, 2019. [Link](https://pyimagesearch.com/2019/02/25/black-and-white-image-colorization-with-opencv-and-deep-learning/)
