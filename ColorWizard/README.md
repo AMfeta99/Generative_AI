@@ -86,6 +86,8 @@ Evaluating the quality of image colorization is complicated, so usually it invol
 
 - ### SSIM (Structural Similarity Index)
   SSIM (Structural Similarity Index) provides a evaluation of image quality by assessing luminance, contrast, and structural similarity between images. It captures how well the colorized image preserves the structural details of the original, offering a more nuanced assessment compared to PSNR metrics. However, despite its advanced approach, SSIM may not fully align with human perception of colorization quality.
+  ![image](https://github.com/user-attachments/assets/a5d32bb5-6fd5-4c4d-a9a7-99a5c4a3ad5d)
+
   
 - ### LPIPS (Learned Perceptual Image Patch Similarity)
 - ### FID (Fréchet Inception Distance)
