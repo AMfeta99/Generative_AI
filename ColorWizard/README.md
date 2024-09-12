@@ -31,8 +31,12 @@ The main DL approaches are CNN-based and GAN-based colorization. Recent innovati
 
 - ### 1. [CNN] - Colorization as a Classification task
   The paper "Colorful Image Colorization" (2016) suggest to treat this problem similary to classification and use class-rebalancing at training time to increase the diversity of colors in the result. 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0f0a6c46-5883-41e2-abd6-56c9459e8831" alt="Colorful Image Colorization" style="width:90%";>
+  <br>
+  <em>Colorful Image Colorization (2016)</em>
+</p>
 
- ![image](https://github.com/user-attachments/assets/0f0a6c46-5883-41e2-abd6-56c9459e8831)
 
 
 - ### 2. [GANS] - Adversarial Game
