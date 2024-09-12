@@ -29,6 +29,11 @@ Traditional image colorization methods include manual coloring, rule-based techn
 
 The main DL approaches are CNN-based and GAN-based colorization. Recent innovations have introduced transformer-based and diffusion-based networks, further enhancing colorization. Additionally, incorporating techniques such as object detection and semantic information has contributed significantly to advancements in the field.
 
+- ### 1. [CNN] - Colorization as a Classification task
+
+- ### 2. [GANS] - Adversarial Game
+
+
 ### Challenges
 - ### 1. Loss of Information
   The richness of the information capture by color imges is much whider than the grayscale images. Grayscale images, only retain the luminance information, essentially representing how bright or dark each pixel is. On the other hand, RGB images encode the world through 3 channels through a complete spectrum of light.
