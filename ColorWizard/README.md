@@ -37,6 +37,7 @@ The main DL approaches are CNN-based and GAN-based colorization. Recent innovati
 
 - ### 2. [GANS] - Adversarial Game
 
+![image](https://github.com/user-attachments/assets/5f382038-44b0-4cd8-a031-0b1796c319d3)
 
 ### Challenges
 - ### 1. Loss of Information
