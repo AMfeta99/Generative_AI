@@ -31,6 +31,9 @@ The main DL approaches are CNN-based and GAN-based colorization. Recent innovati
 
 - ### 1. [CNN] - Colorization as a Classification task
 
+ ![image](https://github.com/user-attachments/assets/0f0a6c46-5883-41e2-abd6-56c9459e8831)
+
+
 - ### 2. [GANS] - Adversarial Game
 
 
