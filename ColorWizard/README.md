@@ -78,12 +78,15 @@ Evaluating the quality of image colorization is complicated, so usually it invol
   PSNR was originaly from signal comparation and measures the peak power of a signal compared to the power of corrupting noise. However have been used to quantificar image quality and compare images.
   
   PSNR reflets the difference between the original color image and the artificial colorized image. Higher PSNR indicates a lower difference, but it doesn’t necessarily guarantee perceptual similarity. PSNR can be misleading in evaluating image colorization quality because it measures overall intensity similarity, not color realism. As a result, it might indicate high quality even if the colors are unrealistic, as long as their overall intensity matches the ground truth.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/79dcd809-88e4-4580-9f88-f46abed12d95" alt="PSNR fails samples" style="width:80%";>
+  <br>
+  <em>Examples where PSNR metric fails to identify a better colorized output. The middle column has a better PSNR compared to the right column.</em>
+</p>
 
-  ![image](https://github.com/user-attachments/assets/79dcd809-88e4-4580-9f88-f46abed12d95)
-Examples where the PSNR metric fails to identify a better colorized output. The middle column has a better PSNR compared to the right column.
-  
 - ### SSIM (Structural Similarity Index)
-- 
+  SSIM (Structural Similarity Index) provides a evaluation of image quality by assessing luminance, contrast, and structural similarity between images. It captures how well the colorized image preserves the structural details of the original, offering a more nuanced assessment compared to PSNR metrics. However, despite its advanced approach, SSIM may not fully align with human perception of colorization quality.
+  
 - ### LPIPS (Learned Perceptual Image Patch Similarity)
 - ### FID (Fréchet Inception Distance)
 
@@ -122,4 +125,5 @@ Examples where the PSNR metric fails to identify a better colorized output. The 
 - https://github.com/Ye11ow-Flash/ColorIt
 - https://github.com/kainoj/colnet
 - https://samgoree.github.io/2021/04/21/colorization_companion.html
+- https://medium.com/@datamonsters/a-quick-overview-of-methods-to-measure-the-similarity-between-images-f907166694ee
 - https://www.researchgate.net/publication/353854254_Grayscale_Image_Colorization_Methods_Overview_and_Evaluation
