@@ -95,6 +95,8 @@ Evaluating the quality of image colorization is complicated, so usually it invol
 
   
 - ### LPIPS (Learned Perceptual Image Patch Similarity)
+Uses pre-trained deep network to assess perceptual similarity between image patches. Evaluate local features in the original and colorized images, aiming to reflect human visual perception more accurately by focusing on the nuanced differences in image details.
+
 - ### FID (Fréchet Inception Distance)
 
 ## Setup
