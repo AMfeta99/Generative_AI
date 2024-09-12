@@ -46,7 +46,7 @@ The main DL approaches are CNN-based and GAN-based colorization. Recent innovati
   <em>ChromaGAN: Adversarial Picture Colorization with Semantic Class Distribution (2020)</em>
 </p>
 
-- ### 3. Advanced Techniques - Incorporating Additional Information
+- ### 3. Incorporating Additional Information
 
 - ### 4. Advanced Architectures
 
