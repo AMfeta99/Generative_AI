@@ -77,16 +77,20 @@ Evaluating the quality of image colorization is complicated, so usually it invol
 - ### PSNR (Peak Signal-to-Noise Ratio)
   PSNR was originaly from signal comparation and measures the peak power of a signal compared to the power of corrupting noise. However have been used to quantificar image quality and compare images.
   
-  PSNR reflets the difference between the original color image and the artificial colorized image. Higher PSNR indicates a lower difference, but it doesn’t necessarily guarantee perceptual similarity. PSNR can be misleading in evaluating image colorization quality because it measures overall intensity similarity, not color realism. As a result, it might indicate high quality even if the colors are unrealistic, as long as their overall intensity matches the ground truth.
+  PSNR reflets the (pixel-by-pixel) difference between the original color image and the artificial colorized image. Higher PSNR indicates a lower difference, but it doesn’t necessarily guarantee perceptual similarity. PSNR can be misleading in evaluating image colorization quality because it measures overall intensity similarity, not color realism. As a result, it might indicate high quality even if the colors are unrealistic, as long as their overall intensity matches the ground truth.
 <p align="center">
   <img src="https://github.com/user-attachments/assets/79dcd809-88e4-4580-9f88-f46abed12d95" alt="PSNR fails samples" style="width:80%";>
   <br>
-  <em>Examples where PSNR metric fails to identify a better colorized output. The middle column has a better PSNR compared to the right column.</em>
+  <em>Sample where PSNR metric fails to identify the better colorized img. The middle column has a better PSNR compared to the right column.</em>
 </p>
 
 - ### SSIM (Structural Similarity Index)
   SSIM (Structural Similarity Index) provides a evaluation of image quality by assessing luminance, contrast, and structural similarity between images. It captures how well the colorized image preserves the structural details of the original, offering a more nuanced assessment compared to PSNR metrics. However, despite its advanced approach, SSIM may not fully align with human perception of colorization quality.
-  ![image](https://github.com/user-attachments/assets/a5d32bb5-6fd5-4c4d-a9a7-99a5c4a3ad5d)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a5d32bb5-6fd5-4c4d-a9a7-99a5c4a3ad5d" alt="SSIM" style="width:80%";>
+  <br>
+  <em>SSIM metrics for different images structures</em>
+</p>
 
   
 - ### LPIPS (Learned Perceptual Image Patch Similarity)
