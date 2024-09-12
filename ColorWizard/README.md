@@ -46,7 +46,11 @@ The main DL approaches are CNN-based and GAN-based colorization. Recent innovati
   <em>ChromaGAN: Adversarial Picture Colorization with Semantic Class Distribution (2020)</em>
 </p>
 
+- ### 3. Advanced Techniques - Incorporating Additional Information
 
+- ### 4. Advanced Architectures
+
+  
 ### Challenges
 - ### 1. Loss of Information
   The richness of the information capture by color imges is much whider than the grayscale images. Grayscale images, only retain the luminance information, essentially representing how bright or dark each pixel is. On the other hand, RGB images encode the world through 3 channels through a complete spectrum of light.
