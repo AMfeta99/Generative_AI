@@ -29,7 +29,7 @@ Traditional image colorization methods include manual coloring, rule-based techn
 
 The main DL approaches are CNN-based and GAN-based colorization. Recent innovations have introduced transformer-based and diffusion-based networks, further enhancing colorization. Additionally, incorporating techniques such as object detection and semantic information has contributed significantly to advancements in the field.
 
-- ### 1. [CNN] - Colorization as a Classification task
+- ### 1. CNNs - Colorization as a Classification task
   The paper "Colorful Image Colorization" (2016) suggest to treat this problem similary to classification and use class-rebalancing at training time to increase the diversity of colors in the result. 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0f0a6c46-5883-41e2-abd6-56c9459e8831" alt="Colorful Image Colorization" style="width:90%";>
@@ -39,9 +39,13 @@ The main DL approaches are CNN-based and GAN-based colorization. Recent innovati
 
 
 
-- ### 2. [GANS] - Adversarial Game
+- ### 2. GANs - Adversarial Game
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5f382038-44b0-4cd8-a031-0b1796c319d3" alt="ChromaGAN" style="width:90%";>
+  <br>
+  <em>ChromaGAN: Adversarial Picture Colorization with Semantic Class Distribution (2020)</em>
+</p>
 
-![image](https://github.com/user-attachments/assets/5f382038-44b0-4cd8-a031-0b1796c319d3)
 
 ### Challenges
 - ### 1. Loss of Information
