@@ -7,8 +7,8 @@
 
  ### Index:
 - [Literature](#Literature)
-  - [SOTA_Overview](#SOTA_Overview)
   - [Challenges](#Challenges)
+  - [SOTA_Overview](#SOTA_Overview)
   - [Metrics](#Metrics)
  <!--
 - [Setup](#Setup)
