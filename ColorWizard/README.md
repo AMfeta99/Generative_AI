@@ -89,7 +89,8 @@ The main DL approaches are CNN-based and GAN-based colorization. Recent innovati
   
   In this paper authors propose an end-to-end CNN that automatically predicts vibrant/realistic colors for grayscale images.
 
-  **A) Color Space:** Their approach focuses on the CIE Lab color space, where they predict the a and b channels (chromaticity) given the L channel (lightness) of an image.
+  **A) Color Space:**
+  Their approach focuses on the CIE Lab color space, where they predict the a and b channels (chromaticity) given the L channel (lightness) of an image.
 
   According to this convention, color can be represented using three values:
     - **L*** (luminance), which indicates perceived brightness.
@@ -105,7 +106,7 @@ The main DL approaches are CNN-based and GAN-based colorization. Recent innovati
    <br>
    <em>Chameleon with its decomposition into L*, a* and b* channels</em>
   </p>
-
+  
   **B) Classification:** Instead of treating color prediction as a regression task, where the network outputs continuous color values, the color space was quantized (313 bins) and model predict the most likely bin, similar to a clssification task.
 
   **C) Class Rebalancing:** Since natural images contain more neural/smooth colors, the loss function was reweighted to favor rare/saturated colors/"classes".
