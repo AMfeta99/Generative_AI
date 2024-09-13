@@ -131,7 +131,13 @@ The main DL approaches are CNN-based and GAN-based colorization. Recent innovati
     - **He et al. (2018):** Propose a exemplar-based GANs that use reference images to guide local and plausible color prediction, allowing for more flexible and accurate colorization outcomes.
       
 
-  Recently, 2020, Vitoria et al. publish **"ChromaGAN: Adversarial Picture Colorization with Semantic Class Distribution"**, proposing a approach to that uses GANs and **semantic information**. 
+  Recently, 2020, Vitoria et al. publish **"ChromaGAN: Adversarial Picture Colorization with Semantic Class Distribution"**, proposing a approach to that uses GANs and **semantic information**.
+  <p align="center">
+     <img src="https://github.com/user-attachments/assets/5f382038-44b0-4cd8-a031-0b1796c319d3" alt="ChromaGAN" style="width:90%";>
+     <br>
+     <em>ChromaGAN: Adversarial Picture Colorization with Semantic Class Distribution (2020)</em>
+  </p>
+
 
   **A) Adversarial Learning:** Similary to the previous method, this also make use of  the CIE Lab color space. Thus, ChromaGAN integrates a generator to predict the color (a, b) and a discriminator (D) to distinguish between real and fake colorizations.
   
@@ -143,12 +149,6 @@ The main DL approaches are CNN-based and GAN-based colorization. Recent innovati
        - G2 predicts the class distribution vector (y) - add semantic understanding.
   - The discriminator uses the PatchGAN architecture, focusing on local patches of the image to better model high-frequency structures, resulting in sharper colorizations.
     
-    <p align="center">
-     <img src="https://github.com/user-attachments/assets/5f382038-44b0-4cd8-a031-0b1796c319d3" alt="ChromaGAN" style="width:90%";>
-     <br>
-     <em>ChromaGAN: Adversarial Picture Colorization with Semantic Class Distribution (2020)</em>
-    </p>
-
 
   **D) Loss Function:**
 
