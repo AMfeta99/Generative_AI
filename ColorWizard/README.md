@@ -113,12 +113,20 @@ The main DL approaches are CNN-based and GAN-based colorization. Recent innovati
 
   **D) Loss Function:** Multinomial **cross-entropy loss** is used, which compares the predicted color distribution to the true color distribution at each pixel.
   Additionally, a technique called **Annealed-Mean** was adopted, in which instead of choosing the most likely color (which could lead to spatial inconsistency), it computes the "softmax temperature" to select a color that is a compromise between the mean and mode of the predicted color distribution, balancing spatial consistency and vividness of colors.
+  
 - ### 2. AutoEncoder 
   VAE-based colorization models approach the task by encoding grayscale images into a compressed latent space that captures both semantic and color information. The latent representation is then decoded to predict the chrominance channels (a, b). This method allows for multiple plausible colorizations since different points in the latent space can correspond to various valid color combinations. Colorization in the context of VAE is treated as a supervised learning problem, where the VAE learns through quadratic regression on a dataset of color images.
 
   VAE-based models often face the challenge of generating **blurry images** due to the likelihood-based loss functions used, such as L2 or reconstruction loss. Since these losses do not effectively capture high-frequency details like textures and sharp color boundaries. Although VAEs generate diverse and plausible colorizations, colorized images may lack the sharpness and clarity that adversarial training in more sophisticated approaches like GANs can achieve.
 
 - ### 3. GANs - Adversarial Learning Strategy
+  Some notable GAN-based colorization approaches:
+
+    - **Isola et al. (2017):** They introduced conditional GANs (cGANs), which map grayscale images to colored ones using paired data. They trained the generator to predict the chrominance values (a, b) conditioned on the grayscale image (L) and combined the adversarial loss (GAN loss) with an L1 loss for better results. This approach outputs sharp, realistic colorizations by leveraging both the low-level reconstruction error (L1 loss) and high-level perceptual quality (GAN loss).
+    - **Cao et al. (2017):**  This method used a conditional GAN architecture but also incorporated input noise into multiple layers of the network. This noise allowed the model to generate diverse colorizations for the same grayscale image by sampling different noise values. Their fully convolutional non-stride network enabled fine control over the colorization process.
+    - **Nazeri and Ng (2018):** In an extension of Isola’s method, this approach aimed to generalize the model for high-resolution images. The GAN loss was optimized for better stability and speed during training. High-resolution colorization required more sophisticated training techniques to prevent issues like mode collapse and vanishing gradients.
+
+  
   The paper "ChromaGAN: Adversarial Picture Colorization with Semantic Class Distribution" (2020), proposes a approach to that uses GANs and semantic information. GANs can be used to generate high-quality colorizations that are more realistic, more coherent/consistent with the original b/w image and visually appealing but they need a large amount of data.
 
   **A) Adversarial Learning:** Similary to the previous method, this also make use of  the CIE Lab color space. Thus, ChromaGAN integrates a generator to predict the color (a, b) and a discriminator (D) to distinguish between real and fake colorizations.
