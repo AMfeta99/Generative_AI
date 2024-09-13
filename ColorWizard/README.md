@@ -122,6 +122,7 @@ The main DL approaches are CNN-based and GAN-based colorization. Recent innovati
 
 - ### 3. GANs - Adversarial Learning Strategy
   GANs can be used to generate high-quality colorizations that are more realistic, more coherent/consistent with the original b/w image and visually appealing but they need a large amount of data. Some notable GAN-based colorization approaches:
+  https://link.springer.com/chapter/10.1007/978-981-16-0708-0_2/figures/3
 
     - **Isola et al. (2017):** They introduced conditional GANs (cGANs), which map grayscale images to colored ones using paired data. They trained the generator to predict the chrominance values (a, b) conditioned on the grayscale image (L) and combined the adversarial loss (GAN loss) with an L1 loss for better results. This approach outputs sharp, realistic colorizations by leveraging both the low-level reconstruction error (L1 loss) and high-level perceptual quality (GAN loss).
       
@@ -164,10 +165,11 @@ The main DL approaches are CNN-based and GAN-based colorization. Recent innovati
   
     - C̳o̳l̳o̳r̳ ̳E̳r̳r̳o̳r̳ ̳L̳o̳s̳s̳:  L2 norm between the predicted and real chrominance channels.
 
+      Since 2020, several advanced versions and improvements using GANs have been proposed, such as SCGANs, CycleGAN, and even multi-GAN approaches. However, a notable concern in this area is incorporating additional semantic information into the algorithms.
       
-- ### 3. Incorporating Additional Information
+- ### 4. Incorporating Additional Information
 
-- ### 4. Advanced Architectures
+- ### 5. Advanced Architectures
 
 
 
@@ -235,6 +237,7 @@ Evaluating the quality of image colorization is complicated, so usually it invol
 - https://mina86.com/2021/srgb-lab-lchab-conversions/
 - https://huggingface.co/tasks/image-to-image
 - https://huggingface.co/models?pipeline_tag=image-to-image&sort=trending&search=color
+- https://link.springer.com/referenceworkentry/10.1007/978-3-030-98661-2_55
 <!--
 - https://github.com/MarkMoHR/Awesome-Image-Colorization
 - https://github.com/Ye11ow-Flash/ColorIt
