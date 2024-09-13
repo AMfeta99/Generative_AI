@@ -145,7 +145,7 @@ The main DL approaches are CNN-based and GAN-based colorization. Recent innovati
        
     - 𝘒𝘓 𝘋𝘪𝘷𝘦𝘳𝘨𝘦𝘯𝘤𝘦 𝘊𝘭𝘢𝘴𝘴 𝘋𝘪𝘴𝘵𝘳𝘪𝘣𝘶𝘵𝘪𝘰𝘯: KL divergence to align the predicted class distribution with the VGG-16 model output, allowing the generator to learn meaningful object-level semantics for more accurate colorization
   
-    - 𝘊𝘰𝘭𝘰𝘳 𝘌𝘳𝘳𝘰𝘳 𝘓𝘰𝘴𝘴: L2 norm between the predicted and real chrominance channels.
+    - 𝘊𝘰𝘭𝘰𝘳 𝘌𝘳𝘳𝘰𝘳 𝘓𝘰𝘴𝘴: L2 norm between the predicted and real chrominance <u>channels</u>.
 
 
 - ### 3. Incorporating Additional Information
