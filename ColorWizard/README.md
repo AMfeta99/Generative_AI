@@ -58,7 +58,7 @@ The main DL approaches are CNN-based and GAN-based colorization. Recent innovati
 
   **B) Classification:** Instead of treating color prediction as a regression task, where the network outputs continuous color values, the color space was quantized (313 bins) and model predict the most likely bin, similar to a clssification task.
 
-  **C) Class Rebalancing:**
+  **C) Class Rebalancing:** Since natural images contain more smooth/neural colors, the loss function was reweighted to favor rare/saturated colors/"classes".
 
   **D)Objective Function:**
 
