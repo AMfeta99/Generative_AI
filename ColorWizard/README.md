@@ -1,5 +1,5 @@
 # Color Wizard ✨
-[project ideia, still in initial stages]
+#### [project ideia, still in initial stages]
 
 "I see your true colors shining.." This project aims to give literal sense to this song by color B/W images. Feels like magic, right? Let's relive memories, One Color at a Time!
 
@@ -30,14 +30,21 @@ Traditional image colorization methods include manual coloring, rule-based techn
 The main DL approaches are CNN-based and GAN-based colorization. Recent innovations have introduced transformer-based and diffusion-based networks, further enhancing colorization. Additionally, incorporating techniques such as object detection and semantic information has contributed significantly to advancements in the field.
 
 - ### 1. CNNs - Colorization as a Classification task
-  The paper "Colorful Image Colorization" (2016) suggest to treat this problem similary to classification and use class-rebalancing at training time to increase the diversity of colors in the result. 
-<p align="center">
+  The paper "Colorful Image Colorization" (2016) suggest to treat this problem similary to classification and use class-rebalancing at training time to increase the diversity of colors in the result.
+  <p align="center">
   <img src="https://github.com/user-attachments/assets/0f0a6c46-5883-41e2-abd6-56c9459e8831" alt="Colorful Image Colorization" style="width:90%";>
   <br>
   <em>Colorful Image Colorization (2016)</em>
 </p>
 
 
+  In this paper authors propose an end-to-end CNN that automatically predicts vibrant/realistic colors for grayscale images. Their approach focuses on the CIE Lab color space, where they predict the a and b channels (chromaticity) given the L channel (lightness) of an image.
+ <p align="center">
+  <img src="" alt="CIELAB" style="width:90%";>
+  <br>
+  <em>Lab Color Space (CIELAB)</em>
+</p>
+https://mina86.com/2021/srgb-lab-lchab-conversions/
 
 - ### 2. GANs - Adversarial Game
 <p align="center">
