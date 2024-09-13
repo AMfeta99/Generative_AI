@@ -111,7 +111,8 @@ The main DL approaches are CNN-based and GAN-based colorization. Recent innovati
 
   **C) Class Rebalancing:** Since natural images contain more neural/smooth colors, the loss function was reweighted to favor rare/saturated colors/"classes".
 
-  **D) Loss Function:** **Multinomial cross-entropy loss** is used, which compares the predicted color distribution to the true color distribution at each pixel. Additionally, a technique called **Annealed-Mean** was adopted, in which instead of choosing the most likely color (which could lead to spatial inconsistency), it computes the "softmax temperature" to select a color that is a compromise between the mean and mode of the predicted color distribution, balancing spatial consistency and vividness of colors.
+  **D) Loss Function:** Multinomial **cross-entropy loss** is used, which compares the predicted color distribution to the true color distribution at each pixel.
+  Additionally, a technique called **Annealed-Mean** was adopted, in which instead of choosing the most likely color (which could lead to spatial inconsistency), it computes the "softmax temperature" to select a color that is a compromise between the mean and mode of the predicted color distribution, balancing spatial consistency and vividness of colors.
 
 - ### 2. GANs - Adversarial Game
 <p align="center">
