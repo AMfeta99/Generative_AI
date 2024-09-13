@@ -44,6 +44,10 @@ The main DL approaches are CNN-based and GAN-based colorization. Recent innovati
   <br>
   <em>Lab Color Space (CIELAB)</em>
 </p>
+![image](https://github.com/user-attachments/assets/0ed5d834-2122-4bcf-bfdd-b29c23b51287)
+
+![image](https://github.com/user-attachments/assets/71c84ba1-b37d-411f-b821-0e009e659d79)
+
 https://mina86.com/2021/srgb-lab-lchab-conversions/
 
 - ### 2. GANs - Adversarial Game
