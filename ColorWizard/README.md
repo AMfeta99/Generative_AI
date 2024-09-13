@@ -140,11 +140,12 @@ The main DL approaches are CNN-based and GAN-based colorization. Recent innovati
   <p align="center">
    𝑳𝒐𝒔𝒔= 𝑾𝑮𝑨𝑵 𝑳𝒐𝒔𝒔 + λ𝒈 * 𝑲𝑳_𝑫𝒊𝒗𝒆𝒓𝒈𝒆𝒏𝒄𝒆_𝑪𝒍𝒂𝒔𝒔_𝑫𝒊𝒔𝒕𝒓𝒊𝒃𝒖𝒕𝒊𝒐𝒏 + λ𝒔 * 𝑪𝒐𝒍𝒐𝒓_𝑬𝒓𝒓𝒐𝒓_𝑳𝒐𝒔𝒔
   </p>
-    - WGAN Loss:
-       
-    - KL Divergence Class Distribution:
   
-    - Color Error Loss:
+    - WGAN Loss: Wasserstein GAN (WGAN) minimizes the Earth-Mover distance between real and generated images, ensure more stable and realistic colorization, with a gradient penalty ensuring Lipschitz continuity in the discriminator for improved training stability.
+       
+    - KL Divergence Class Distribution: KL divergence to align the predicted class distribution with the VGG-16 model output, allowing the generator to learn meaningful object-level semantics for more accurate colorization
+  
+    - Color Error Loss: L2 norm between the predicted and real chrominance channels.
 
 
 - ### 3. Incorporating Additional Information
