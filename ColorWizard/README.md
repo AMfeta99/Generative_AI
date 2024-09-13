@@ -190,7 +190,7 @@ Evaluating the quality of image colorization is complicated, so usually it invol
 - "Overview of Image Similarity Metrics," [Medium Article by Data Monsters](https://medium.com/@datamonsters/a-quick-overview-of-methods-to-measure-the-similarity-between-images-f907166694ee)
 - "Grayscale Image Colorization Methods Overview and Evaluation," [ResearchGate Publication by Various Authors](https://www.researchgate.net/publication/353854254_Grayscale_Image_Colorization_Methods_Overview_and_Evaluation)
 - https://mina86.com/2021/srgb-lab-lchab-conversions/
-
+- https://huggingface.co/tasks/image-to-image
 <!--
 - https://github.com/MarkMoHR/Awesome-Image-Colorization
 - https://github.com/Ye11ow-Flash/ColorIt
