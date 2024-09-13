@@ -37,14 +37,19 @@ The main DL approaches are CNN-based and GAN-based colorization. Recent innovati
   <em>Colorful Image Colorization (2016)</em>
 </p>
 
-
   In this paper authors propose an end-to-end CNN that automatically predicts vibrant/realistic colors for grayscale images. Their approach focuses on the CIE Lab color space, where they predict the a and b channels (chromaticity) given the L channel (lightness) of an image.
+  Segundo esta convenção color can be express using 3 values :
+    -L* (luma), represents perceived brightness.
+    -a* (red — green)
+    -b* (blue — yellow) 
+    a*and b* representing the human visual colors.
+  Lab aims to be perceptually uniform, meaning that given numeric changes correspond to similar perceived color changes, which is useful for detecting subtle color differences. 
  <p align="center">
   <img src="https://github.com/user-attachments/assets/0ed5d834-2122-4bcf-bfdd-b29c23b51287" alt="CIELAB" style="width:40%";>
   <br>
   <em>Lab Color Space (CIELAB)</em>
 </p>
-
+The following figure is an example of the decompsição of RGB image in CIELAB
  <p align="center">
   <img src="https://github.com/user-attachments/assets/71c84ba1-b37d-411f-b821-0e009e659d79" alt="chameleon" style="width:90%";>
   <br>
