@@ -123,11 +123,12 @@ The main DL approaches are CNN-based and GAN-based colorization. Recent innovati
   
   **C) Network Architecture:**
   - The generator has two subnetworks:
-       - G1 predicts the chrominance channels (a, b).
+       - G1 predicts the color (channels a, b).
        - G2 predicts the class distribution vector (y) - add semantic understanding.
   - The discriminator uses the PatchGAN architecture, focusing on local patches of the image to better model high-frequency structures, resulting in sharper colorizations.
   
   **D) Loss Function:**
+  The objective function is define as: 𝑳𝒐𝒔𝒔= 𝑾𝑮𝑨𝑵 𝑳𝒐𝒔𝒔 + λ𝒈*𝑲𝑳_𝑫𝒊𝒗𝒆𝒓𝒈𝒆𝒏𝒄𝒆_𝑪𝒍𝒂𝒔𝒔_𝑫𝒊𝒔𝒕𝒓𝒊𝒃𝒖𝒕𝒊𝒐𝒏 + λ𝒔*𝑪𝒐𝒍𝒐𝒓_𝑬𝒓𝒓𝒐𝒓_𝑳𝒐𝒔𝒔
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/5f382038-44b0-4cd8-a031-0b1796c319d3" alt="ChromaGAN" style="width:90%";>
