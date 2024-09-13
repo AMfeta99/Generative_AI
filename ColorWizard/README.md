@@ -165,7 +165,7 @@ The main DL approaches are CNN-based and GAN-based colorization. Recent innovati
   
     - C̳o̳l̳o̳r̳ ̳E̳r̳r̳o̳r̳ ̳L̳o̳s̳s̳:  L2 norm between the predicted and real chrominance channels.
 
-      Since 2020, several advanced versions and improvements using GANs have been proposed, such as SCGANs, CycleGAN, and even multi-GAN approaches. However, a notable concern in this area is incorporating additional semantic information into the algorithms.
+  Since 2020, several advanced versions and improvements using GANs have been proposed, such as SCGANs, CycleGAN, and even multi-GAN approaches. However, a notable concern in this area is incorporating additional semantic information into the algorithms.
       
 - ### 4. Incorporating Additional Information
 
