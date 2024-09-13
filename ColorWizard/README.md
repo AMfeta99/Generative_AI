@@ -114,7 +114,8 @@ The main DL approaches are CNN-based and GAN-based colorization. Recent innovati
   **D) Loss Function:** Multinomial **cross-entropy loss** is used, which compares the predicted color distribution to the true color distribution at each pixel.
   Additionally, a technique called **Annealed-Mean** was adopted, in which instead of choosing the most likely color (which could lead to spatial inconsistency), it computes the "softmax temperature" to select a color that is a compromise between the mean and mode of the predicted color distribution, balancing spatial consistency and vividness of colors.
   
-- ### 2. AutoEncoder 
+- ### 2. AutoEncoder
+  <!-- https://github.com/alexandrasalem/image_colorization/tree/main -->
   VAE-based colorization models approach the task by encoding grayscale images into a compressed latent space that captures both semantic and color information. The latent representation is then decoded to predict the chrominance channels (a, b). This method allows for multiple plausible colorizations since different points in the latent space can correspond to various valid color combinations. Colorization in the context of VAE is treated as a supervised learning problem, where the VAE learns through quadratic regression on a dataset of color images.
 
   VAE-based models often face the challenge of generating **blurry images** due to the likelihood-based loss functions used, such as L2 or reconstruction loss. Since these losses do not effectively capture high-frequency details like textures and sharp color boundaries. Although VAEs generate diverse and plausible colorizations, colorized images may lack the sharpness and clarity that adversarial training in more sophisticated approaches like GANs can achieve.
