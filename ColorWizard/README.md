@@ -39,10 +39,10 @@ The main DL approaches are CNN-based and GAN-based colorization. Recent innovati
   
   In this paper authors propose an end-to-end CNN that automatically predicts vibrant/realistic colors for grayscale images.
 
-  A) Color Space: Their approach focuses on the CIE Lab color space, where they predict the a and b channels (chromaticity) given the L channel (lightness) of an image.
+  **A) Color Space:** Their approach focuses on the CIE Lab color space, where they predict the a and b channels (chromaticity) given the L channel (lightness) of an image.
 
   According to this convention, color can be represented using three values:
-    - L* (luminance), which indicates perceived brightness.
+    - **L*** (luminance), which indicates perceived brightness.
     - a* (red — green)
     - b* (blue — yellow) 
     a*and b* representing the human visual colors.
