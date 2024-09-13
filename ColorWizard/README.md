@@ -117,11 +117,15 @@ The main DL approaches are CNN-based and GAN-based colorization. Recent innovati
 - ### 2. GANs - Adversarial Learning Strategy
   The paper "ChromaGAN: Adversarial Picture Colorization with Semantic Class Distribution" (2020), proposes a approach to that uses GANs and semantic information. GANs can be used to generate high-quality colorizations that are more realistic, more coherent/consistent with the original b/w image and visually appealing but they need a large amount of data.
 
-  **A) Adversarial Learning:**
+  **A) Adversarial Learning:** Similary to the previous method, this also make use of  the CIE Lab color space. Thus, ChromaGAN integrates a generator to predict the color (a, b) and a discriminator (D) to distinguish between real and fake colorizations.
   
-  **B) Semantic Class Distribution:**
+  **B) Semantic Class Distribution:** The Generator was two outputs: 1) color (a, b); 2) class distribution vector (y) that represents the probability distribution of different semantic categories/objects in the image. Incorporating semantic information allows to generate more context-aware colorizations, improving both perceptual realism and consistency in object coloring.
   
   **C) Network Architecture:**
+  - The generator has two subnetworks:
+       - G1 predicts the chrominance channels (a, b).
+       - G2 predicts the class distribution vector (y) - add semantic understanding.
+  - The discriminator uses the PatchGAN architecture, focusing on local patches of the image to better model high-frequency structures, resulting in sharper colorizations.
   
   **D) Loss Function:**
 
