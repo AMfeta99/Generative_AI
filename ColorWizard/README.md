@@ -38,11 +38,13 @@ The main DL approaches are CNN-based and GAN-based colorization. Recent innovati
   </p>
   
   In this paper authors propose an end-to-end CNN that automatically predicts vibrant/realistic colors for grayscale images. Their approach focuses on the CIE Lab color space, where they predict the a and b channels (chromaticity) given the L channel (lightness) of an image.
+
   According to this convention, color can be represented using three values:
-    -L* (luminance), which indicates perceived brightness.
-    -a* (red — green)
-    -b* (blue — yellow) 
+    - L* (luminance), which indicates perceived brightness.
+    - a* (red — green)
+    - b* (blue — yellow) 
     a*and b* representing the human visual colors.
+    
     The a* and b* values reflect how humans perceive colors. The Lab color model is designed to be perceptually uniform, meaning that numeric changes in these values correspond to similar changes in how the colors are perceived. This feature makes it particularly useful for detecting subtle differences between colors, as it closely aligns with human vision.
 
   The following figure illustrates an example of the decomposition of an RGB image into the CIELAB color space:
