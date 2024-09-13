@@ -191,6 +191,7 @@ Evaluating the quality of image colorization is complicated, so usually it invol
 - "Grayscale Image Colorization Methods Overview and Evaluation," [ResearchGate Publication by Various Authors](https://www.researchgate.net/publication/353854254_Grayscale_Image_Colorization_Methods_Overview_and_Evaluation)
 - https://mina86.com/2021/srgb-lab-lchab-conversions/
 - https://huggingface.co/tasks/image-to-image
+- https://huggingface.co/models?pipeline_tag=image-to-image&sort=trending&search=color
 <!--
 - https://github.com/MarkMoHR/Awesome-Image-Colorization
 - https://github.com/Ye11ow-Flash/ColorIt
