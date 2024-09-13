@@ -164,8 +164,9 @@ The main DL approaches are CNN-based and GAN-based colorization. Recent innovati
     - ̳K̳L̳ ̳D̳i̳v̳e̳r̳g̳e̳n̳c̳e̳ ̳C̳l̳a̳s̳s̳ ̳D̳i̳s̳t̳r̳i̳b̳u̳t̳i̳o̳n̳: KL divergence to align the predicted class distribution with the VGG-16 model output, allowing the generator to learn meaningful object-level semantics for more accurate colorization
   
     - C̳o̳l̳o̳r̳ ̳E̳r̳r̳o̳r̳ ̳L̳o̳s̳s̳:  L2 norm between the predicted and real chrominance channels.
+      
 
-  Since 2020, several advanced versions and improvements using GANs have been proposed, such as SCGANs, CycleGAN, and even multi-GAN approaches. However, a notable concern in this area is incorporating additional semantic information into the algorithms.
+Since 2020, several advanced versions and improvements using GANs have been proposed, such as SCGANs, CycleGAN, and even multi-GAN approaches. However, a notable concern in this area is incorporating additional semantic information into the algorithms.
       
 - ### 4. Incorporating Additional Information
 
