@@ -126,17 +126,22 @@ The main DL approaches are CNN-based and GAN-based colorization. Recent innovati
        - G1 predicts the color (channels a, b).
        - G2 predicts the class distribution vector (y) - add semantic understanding.
   - The discriminator uses the PatchGAN architecture, focusing on local patches of the image to better model high-frequency structures, resulting in sharper colorizations.
-  
+    
+    <p align="center">
+     <img src="https://github.com/user-attachments/assets/5f382038-44b0-4cd8-a031-0b1796c319d3" alt="ChromaGAN" style="width:90%";>
+     <br>
+     <em>ChromaGAN: Adversarial Picture Colorization with Semantic Class Distribution (2020)</em>
+    </p>
+
+
   **D) Loss Function:**
   The objective function is define as:
-
-  𝑳𝒐𝒔𝒔= 𝑾𝑮𝑨𝑵 𝑳𝒐𝒔𝒔 + λ𝒈 * 𝑲𝑳_𝑫𝒊𝒗𝒆𝒓𝒈𝒆𝒏𝒄𝒆_𝑪𝒍𝒂𝒔𝒔_𝑫𝒊𝒔𝒕𝒓𝒊𝒃𝒖𝒕𝒊𝒐𝒏 + λ𝒔 * 𝑪𝒐𝒍𝒐𝒓_𝑬𝒓𝒓𝒐𝒓_𝑳𝒐𝒔𝒔
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/5f382038-44b0-4cd8-a031-0b1796c319d3" alt="ChromaGAN" style="width:90%";>
-  <br>
-  <em>ChromaGAN: Adversarial Picture Colorization with Semantic Class Distribution (2020)</em>
-</p>
+  <p align="center">
+   𝑳𝒐𝒔𝒔= 𝑾𝑮𝑨𝑵 𝑳𝒐𝒔𝒔 + λ𝒈 * 𝑲𝑳_𝑫𝒊𝒗𝒆𝒓𝒈𝒆𝒏𝒄𝒆_𝑪𝒍𝒂𝒔𝒔_𝑫𝒊𝒔𝒕𝒓𝒊𝒃𝒖𝒕𝒊𝒐𝒏 + λ𝒔 * 𝑪𝒐𝒍𝒐𝒓_𝑬𝒓𝒓𝒐𝒓_𝑳𝒐𝒔𝒔
+  </p>
+      - WGAN Loss:
+      - KL Divergence Class Distribution:
+      - Color Error Loss:
 
 
 - ### 3. Incorporating Additional Information
