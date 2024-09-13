@@ -40,15 +40,17 @@ The main DL approaches are CNN-based and GAN-based colorization. Recent innovati
 
   In this paper authors propose an end-to-end CNN that automatically predicts vibrant/realistic colors for grayscale images. Their approach focuses on the CIE Lab color space, where they predict the a and b channels (chromaticity) given the L channel (lightness) of an image.
  <p align="center">
-  <img src="" alt="CIELAB" style="width:90%";>
+  <img src="https://github.com/user-attachments/assets/0ed5d834-2122-4bcf-bfdd-b29c23b51287" alt="CIELAB" style="width:40%";>
   <br>
   <em>Lab Color Space (CIELAB)</em>
 </p>
-![image](https://github.com/user-attachments/assets/0ed5d834-2122-4bcf-bfdd-b29c23b51287)
 
-![image](https://github.com/user-attachments/assets/71c84ba1-b37d-411f-b821-0e009e659d79)
+ <p align="center">
+  <img src="https://github.com/user-attachments/assets/71c84ba1-b37d-411f-b821-0e009e659d79" alt="chameleon" style="width:90%";>
+  <br>
+  <em>Chameleon with its decomposition into L*, a* and b* channels</em>
+</p>
 
-https://mina86.com/2021/srgb-lab-lchab-conversions/
 
 - ### 2. GANs - Adversarial Game
 <p align="center">
@@ -170,6 +172,7 @@ Evaluating the quality of image colorization is complicated, so usually it invol
 - Goree, Sam. "Colorization Companion Blog," 2021. [Link](https://samgoree.github.io/2021/04/21/colorization_companion.html)
 - "Overview of Image Similarity Metrics," [Medium Article by Data Monsters](https://medium.com/@datamonsters/a-quick-overview-of-methods-to-measure-the-similarity-between-images-f907166694ee)
 - "Grayscale Image Colorization Methods Overview and Evaluation," [ResearchGate Publication by Various Authors](https://www.researchgate.net/publication/353854254_Grayscale_Image_Colorization_Methods_Overview_and_Evaluation)
+- https://mina86.com/2021/srgb-lab-lchab-conversions/
 
 <!--
 - https://github.com/MarkMoHR/Awesome-Image-Colorization
