@@ -115,7 +115,15 @@ The main DL approaches are CNN-based and GAN-based colorization. Recent innovati
   Additionally, a technique called **Annealed-Mean** was adopted, in which instead of choosing the most likely color (which could lead to spatial inconsistency), it computes the "softmax temperature" to select a color that is a compromise between the mean and mode of the predicted color distribution, balancing spatial consistency and vividness of colors.
 
 - ### 2. GANs - Adversarial Learning Strategy
-The paper ChromaGAN: Adversarial Picture Colorization with Semantic Class Distribution (2020), proposes a approach to that uses GANs and semantic information. GANs can be used to generate high-quality colorizations that are more realistic, more coherent/consistent with the original b/w image and visually appealing but they need a large amount of data.
+  The paper "ChromaGAN: Adversarial Picture Colorization with Semantic Class Distribution" (2020), proposes a approach to that uses GANs and semantic information. GANs can be used to generate high-quality colorizations that are more realistic, more coherent/consistent with the original b/w image and visually appealing but they need a large amount of data.
+
+  **A) Adversarial Learning:**
+  
+  **B) Semantic Class Distribution:**
+  
+  **C) Network Architecture:**
+  
+  **D) Loss Function:**
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/5f382038-44b0-4cd8-a031-0b1796c319d3" alt="ChromaGAN" style="width:90%";>
