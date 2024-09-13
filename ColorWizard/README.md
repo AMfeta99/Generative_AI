@@ -43,11 +43,11 @@ The main DL approaches are CNN-based and GAN-based colorization. Recent innovati
 
   According to this convention, color can be represented using three values:
     - **L*** (luminance), which indicates perceived brightness.
-    - a* (red — green)
-    - b* (blue — yellow) 
-    a*and b* representing the human visual colors.
+    - **a*** (red — green)
+    - **b*** (blue — yellow) 
+    **a*** and **b*** representing the human visual colors.
     
-    The a* and b* values reflect how humans perceive colors. The Lab color model is designed to be perceptually uniform, meaning that numeric changes in these values correspond to similar changes in how the colors are perceived. This feature makes it particularly useful for detecting subtle differences between colors, as it closely aligns with human vision.
+    The **a*** and **b*** values reflect how humans perceive colors. The Lab color model is designed to be perceptually uniform, meaning that numeric changes in these values correspond to similar changes in how the colors are perceived. This feature makes it particularly useful for detecting subtle differences between colors, as it closely aligns with human vision.
 
   The following figure illustrates an example of the decomposition of an RGB image into the CIELAB color space:
   <p align="center">
@@ -56,9 +56,11 @@ The main DL approaches are CNN-based and GAN-based colorization. Recent innovati
    <em>Chameleon with its decomposition into L*, a* and b* channels</em>
   </p>
 
-  B) Classification: Instead of treating color prediction as a regression task, where the network outputs continuous color values, the color space was quantized (313 bins) and model predict the most likely bin, similar to a clssification task.
+  **B) Classification:** Instead of treating color prediction as a regression task, where the network outputs continuous color values, the color space was quantized (313 bins) and model predict the most likely bin, similar to a clssification task.
 
-  C) Class Rebalancing
+  **C) Class Rebalancing:**
+
+  **D)Objective Function:**
 
 
 - ### 2. GANs - Adversarial Game
