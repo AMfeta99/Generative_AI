@@ -23,58 +23,6 @@
 ## Literature
 Image Colorization is the process of adding color to B/W images. This problem is framed as being a "inverse problem" since the goal is to recover higher dimensional data (a color image) from its low-dimensional representation. Existing wotk on pixel-to-pixel problem (as in this case, since we want to predict color/label for each pixel) originally were done statistical models but currently deep neural network have been SOTA. 
 
-### SOTA_Overview
-
-Traditional image colorization methods include manual coloring, rule-based techniques, and color propagation approaches. However, with the advancements in deep learning, these have been largely replaced by more sophisticated methods. 
-
-The main DL approaches are CNN-based and GAN-based colorization. Recent innovations have introduced transformer-based and diffusion-based networks, further enhancing colorization. Additionally, incorporating techniques such as object detection and semantic information has contributed significantly to advancements in the field.
-
-- ### 1. CNNs - Colorization as a Classification task
-  The paper "Colorful Image Colorization" (2016) suggest to treat this problem similary to classification and use class-rebalancing at training time to increase the diversity of colors in the result.
-  <p align="center">
-  <img src="https://github.com/user-attachments/assets/0f0a6c46-5883-41e2-abd6-56c9459e8831" alt="Colorful Image Colorization" style="width:90%";>
-  <br>
-  <em>Colorful Image Colorization (2016)</em>
-  </p>
-  
-  In this paper authors propose an end-to-end CNN that automatically predicts vibrant/realistic colors for grayscale images.
-
-  **A) Color Space:** Their approach focuses on the CIE Lab color space, where they predict the a and b channels (chromaticity) given the L channel (lightness) of an image.
-
-  According to this convention, color can be represented using three values:
-    - **L*** (luminance), which indicates perceived brightness.
-    - **a*** (red — green)
-    - **b*** (blue — yellow) 
-    **a*** and **b*** representing the human visual colors.
-    
-    The **a*** and **b*** values reflect how humans perceive colors. The Lab color model is designed to be perceptually uniform, meaning that numeric changes in these values correspond to similar changes in how the colors are perceived. This feature makes it particularly useful for detecting subtle differences between colors, as it closely aligns with human vision.
-
-  The following figure illustrates an example of the decomposition of an RGB image into the CIELAB color space:
-  <p align="center">
-   <img src="https://github.com/user-attachments/assets/71c84ba1-b37d-411f-b821-0e009e659d79" alt="chameleon" style="width:90%";>
-   <br>
-   <em>Chameleon with its decomposition into L*, a* and b* channels</em>
-  </p>
-
-  **B) Classification:** Instead of treating color prediction as a regression task, where the network outputs continuous color values, the color space was quantized (313 bins) and model predict the most likely bin, similar to a clssification task.
-
-  **C) Class Rebalancing:** Since natural images contain more smooth/neural colors, the loss function was reweighted to favor rare/saturated colors/"classes".
-
-  **D)Objective Function:**
-
-
-- ### 2. GANs - Adversarial Game
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/5f382038-44b0-4cd8-a031-0b1796c319d3" alt="ChromaGAN" style="width:90%";>
-  <br>
-  <em>ChromaGAN: Adversarial Picture Colorization with Semantic Class Distribution (2020)</em>
-</p>
-
-
-- ### 3. Incorporating Additional Information
-
-- ### 4. Advanced Architectures
-
   
 ### Challenges
 - ### 1. Loss of Information
@@ -123,6 +71,61 @@ The main DL approaches are CNN-based and GAN-based colorization. Recent innovati
 - ### 6. Computational Resources
    Image colorization is a computationally intensive task due to large image size, algorithm complexity, and optimization techniques.
    Larger images require more processing power, while complex deep learning models needed, involve numerous calculations and parameters. Additionally, iterative optimization processes further increase computation demands. 
+
+
+### SOTA_Overview
+
+Traditional image colorization methods include manual coloring, rule-based techniques, and color propagation approaches. However, with the advancements in deep learning, these have been largely replaced by more sophisticated methods. 
+
+The main DL approaches are CNN-based and GAN-based colorization. Recent innovations have introduced transformer-based and diffusion-based networks, further enhancing colorization. Additionally, incorporating techniques such as object detection and semantic information has contributed significantly to advancements in the field.
+
+- ### 1. CNNs - Colorization as a Classification task
+  The paper "Colorful Image Colorization" (2016) suggest to treat this problem similary to classification and use class-rebalancing at training time to increase the diversity of colors in the result.
+  <p align="center">
+  <img src="https://github.com/user-attachments/assets/0f0a6c46-5883-41e2-abd6-56c9459e8831" alt="Colorful Image Colorization" style="width:90%";>
+  <br>
+  <em>Colorful Image Colorization (2016)</em>
+  </p>
+  
+  In this paper authors propose an end-to-end CNN that automatically predicts vibrant/realistic colors for grayscale images.
+
+  **A) Color Space:** Their approach focuses on the CIE Lab color space, where they predict the a and b channels (chromaticity) given the L channel (lightness) of an image.
+
+  According to this convention, color can be represented using three values:
+    - **L*** (luminance), which indicates perceived brightness.
+    - **a*** (red — green)
+    - **b*** (blue — yellow) 
+    **a*** and **b*** representing the human visual colors.
+    
+    The **a*** and **b*** values reflect how humans perceive colors. The Lab color model is designed to be perceptually uniform, meaning that numeric changes in these values correspond to similar changes in how the colors are perceived. This feature makes it particularly useful for detecting subtle differences between colors, as it closely aligns with human vision.
+
+  The following figure illustrates an example of the decomposition of an RGB image into the CIELAB color space:
+  <p align="center">
+   <img src="https://github.com/user-attachments/assets/71c84ba1-b37d-411f-b821-0e009e659d79" alt="chameleon" style="width:90%";>
+   <br>
+   <em>Chameleon with its decomposition into L*, a* and b* channels</em>
+  </p>
+
+  **B) Classification:** Instead of treating color prediction as a regression task, where the network outputs continuous color values, the color space was quantized (313 bins) and model predict the most likely bin, similar to a clssification task.
+
+  **C) Class Rebalancing:** Since natural images contain more neural/smooth colors, the loss function was reweighted to favor rare/saturated colors/"classes".
+
+  **D) Loss Function:** **Multinomial cross-entropy loss** is used, which compares the predicted color distribution to the true color distribution at each pixel. Additionaly a teqnique called **Annealed-mean** was adopted in which instead of choosing the most likely color (could lead to spatial inconsistency), it compute the "softmax temperature" to select a color that is a compromise between the mean and mode of the predicted color distribution, balancing spatial consistency and vividness of colors.  
+
+- ### 2. GANs - Adversarial Game
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5f382038-44b0-4cd8-a031-0b1796c319d3" alt="ChromaGAN" style="width:90%";>
+  <br>
+  <em>ChromaGAN: Adversarial Picture Colorization with Semantic Class Distribution (2020)</em>
+</p>
+
+
+- ### 3. Incorporating Additional Information
+
+- ### 4. Advanced Architectures
+
+
+
 
 ### Metrics
 Evaluating the quality of image colorization is complicated, so usually it involves both objective metrics & subjective human perception. Metrics provide/measure color accuracy, consistency, and alignment with the original grayscale image. However, these metrics alone are often insufficient, as the perceived quality of colorization also depends on how realistic is the result for humans.
