@@ -13,7 +13,7 @@ This repository aims to experiment with SOTA methods for tex-to-img task. This j
 -->
 <!-- ![image](https://github.com/user-attachments/assets/abf2b2c1-48d3-4c6d-b3c1-643dc3e45116) -->
 
-
+<!-- ver esta ideia ! https://www.youtube.com/watch?v=FMRi6pNAoag -->
  ### Index:
 - [Literature](#Literature)
   - [SOTA_Overview](#SOTA_Overview)
