@@ -123,11 +123,10 @@ The main DL approaches are CNN-based and GAN-based colorization. Recent innovati
 - ### 3. GANs - Adversarial Learning Strategy
   GANs can be used to generate high-quality colorizations that are more realistic, more coherent/consistent with the original b/w image and visually appealing but they need a large amount of data. Some notable GAN-based colorization approaches:
     <p align="center">
-   <img src="https://github.com/user-attachments/assets/692220db-bae1-44b2-a7d7-63a8fc4123e8" alt="cGANs" style="width:50%";>
+   <img src="https://github.com/user-attachments/assets/721bc236-34f9-4ae7-80f6-f226c505a091" alt="cGANs" style="width:50%";>
    <br>
    <em>Conditiona GANs for image Colorization</em>
    </p>
-   ![image](https://github.com/user-attachments/assets/721bc236-34f9-4ae7-80f6-f226c505a091)
 
 
     - **Isola et al. (2017):** They introduced conditional GANs (cGANs), which map grayscale images to colored ones using paired data. They trained the generator to predict the chrominance values (a, b) conditioned on the grayscale image (L) and combined the adversarial loss (GAN loss) with an L1 loss for better results. This approach outputs sharp, realistic colorizations by leveraging both the low-level reconstruction error (L1 loss) and high-level perceptual quality (GAN loss).
