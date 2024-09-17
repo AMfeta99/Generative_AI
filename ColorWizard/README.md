@@ -190,13 +190,22 @@ Since 2020, several advanced versions and improvements using GANs have been prop
     - **Feature Fusion:** These two sets of features—object-specific and scene-wide—are intelligently combined. This fusion allows the model to make better color predictions based on both the object's likely color and the scene context.
  
   **B) Semantic Information**
+  
+  Understanding the overall context of an image is key to realistic colorization. Researchers now use scene segmentation to extract detailed labels, **identifying** not just objects but also **materials** (e.g., wood, grass) and **scene elements** (e.g., sky, ground).
+
+  This richer semantic understanding helps colorization models make more accurate and context-aware color decisions, leading to more realistic and consistent results. 
   <p align="center">
   <img src="https://github.com/user-attachments/assets/1432f7e4-3bf7-449f-acdb-073c5e460aa1" alt="Pixelated Semantic Colorization" style="width:80%";>
   <br>
-  <em>Pixelated Semantic Colorization (2020)</em>
-</p>
+  <em>Pixelated Semantic Colorization (2020)</em></p>
+  
+  The paper "Pixelated Semantic Colorization" explores how understanding the semantic content of an image can improve colorization. It proposes a two-branch network that combines semantic understanding with colorization:
+  
+    - **Semantic Understanding Branch:** This part of the model identifies objects and scene elements using techniques like semantic segmentation, understanding what’s in the image (e.g., sky, car).
+    - **Pixel-Level Semantic Embedding:** The semantic information is transformed into a detailed pixel-level embedding, capturing the meaning of each pixel in the image.
+    - **Colorization Guided by Semantics:** This semantic embedding is then used in the colorization process, helping the model predict appropriate colors based on the object or scene (e.g., making the sky blue).
 
-  Understanding the overall context of an image is key to realistic colorization. Researchers now use scene segmentation to extract detailed labels, identifying not just objects but also materials (e.g., wood, grass) and scene elements (e.g., sky, ground). This richer semantic understanding helps colorization models make more accurate and context-aware color decisions, leading to more realistic and consistent results.
+
 
 - ### 5. Advanced Architectures
 
