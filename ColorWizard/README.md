@@ -285,6 +285,18 @@ Evaluating the quality of image colorization is complicated, so usually it invol
  <!--
 ## Setup
 ## Methods
+Hugging face (https://huggingface.co/models?pipeline_tag=image-to-image&sort=trending&search=colo)
+https://huggingface.co/c2p-cmd/bw_colorizer_coreml
+https://huggingface.co/rsortino/ColorizeNet
+https://huggingface.co/Hammad712/GAN-Colorization-Model
+https://huggingface.co/TencentARC/t2iadapter_color_sd14v1
+
+github 
+https://github.com/MarkMoHR/Awesome-Image-Colorization (principal... all papers and code)
+https://github.com/richzhang/colorization-pytorch (cycle-GAN)
+https://github.com/ericsujw/InstColorization/tree/master (same as before but with object detection)
+https://github.com/msracver/Deep-Exemplar-based-Colorization
+https://github.com/zeruniverse/neural-colorization  (GAN)
 ### Dataset
 ### Approaches
 ### Results
