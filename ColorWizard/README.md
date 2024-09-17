@@ -224,12 +224,29 @@ Since 2020, several advanced versions and improvements using GANs have been prop
      - **Diffusion Guider for Color Priors:** This extracts color information from the pre-trained model, aligning it with the grayscale image's content to create a color foundation.
      - **Lightness-Aware VQ-VAE:** This architecture, aware of lightness details in the image, combines the grayscale input and color prior to generate the final colorized image, ensuring pixel-perfect alignment and avoiding artifacts.
   
-    This approach benefits from the diffusion model's understanding of color semantics and allows for conditional colorization, where user input can guide color choices.
+    This approach benefits from the diffusion model's understanding of color semantics and allows for conditional colorization, where user can guide color choices.
   
 
   **B) Transformer-based Network**
+  
+   CNNs struggle with capturing long-range dependencies in images. To overcome this, researchers are turning to transformer architectures, which can analyze the entire B/W image at once. This allows transformers to consider the global context when predicting colors for each pixel, leading to better color harmony and consistency across the image. Transformer-based models offer an advantage over CNNs by capturing these broader relationships within an image.
 
+  The papers **ColTran: "Colorization Transformer"** (2021) and **"CT²: Colorization Transformer via Color Tokens"** (2022) both introduce innovative transformer-based approaches to image colorization, moving beyond traditional CNN methods.
 
+    - **ColTran:** ColTran uses a progressive approach, starting with a coarse, low-resolution colorization and gradually refining the colors and resolution step-by-step. It leverages axial transformers, which capture spatial relationships across both horizontal and vertical directions. This method focuses on achieving an overall color scheme first, then adding finer details for natural-looking colorizations.
+      <p align="center">
+       <img src="https://github.com/user-attachments/assets/30fa3ff9-713e-4bc8-9a9c-adf4f3cafe6e" alt="ColTran" style="width:80%";>
+       <br>
+       <em>Colorization Transformer (ColTran) </em></p>
+
+      
+    - **CT²:** CT² addresses a common issue in transformer-based colorization—undersaturation—by introducing color tokens. These tokens represent discrete colors in a predefined color space. Instead of directly predicting RGB values, CT² treats colorization as a classification problem, assigning probability scores to each token for each pixel. This approach ensures more saturated, vibrant color results while limiting the palette to realistic, diverse color choices.
+      <p align="center">
+       <img src="https://github.com/user-attachments/assets/0480effb-72a6-4ade-bb5f-a4ee7443db2a" alt="CT2" style="width:80%";>
+       <br>
+       <em>Colorization Transformer via Color Tokens (CT²) </em></p>
+
+  Both methods highlight the power of transformers in achieving more globally consistent and vibrant colorizations compared to CNNs.
 
 
 ### Metrics
