@@ -173,6 +173,25 @@ The main DL approaches are CNN-based and GAN-based colorization. Recent innovati
 Since 2020, several advanced versions and improvements using GANs have been proposed, such as SCGANs, CycleGAN, and even multi-GAN approaches. However, a notable concern in this area is incorporating additional semantic information into the algorithms.
       
 - ### 4. Incorporating Additional Information
+  **A) Object Detection Information**
+  
+  One major challenge in coloration is handling complex scenes with various objects, often algorithms struggle assigning colors into neighboring regions and create unrealistic artifacts.
+  
+  Recent approaches tackle this by using object detection models to identify and separate objects within a grayscale image. This object information is then used to guide the colorization process, ensuring colors are applied more accurately. This method creates sharper boundaries between objects and produces a more natural, realistic result.
+  <p align="center">
+  <img src="https://github.com/user-attachments/assets/ee315d34-c4e8-4853-a825-22ddfa401bc3" alt="Instance-aware Image Colorization" style="width:80%";>
+  <br>
+  <em>Instance-aware Image Colorization (2020)</em>
+  </p>
+
+  **B) Semantic Information**
+  <p align="center">
+  <img src="https://github.com/user-attachments/assets/1432f7e4-3bf7-449f-acdb-073c5e460aa1" alt="Pixelated Semantic Colorization" style="width:80%";>
+  <br>
+  <em>Pixelated Semantic Colorization (2020)</em>
+</p>
+
+  
 
 - ### 5. Advanced Architectures
 
