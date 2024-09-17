@@ -127,6 +127,8 @@ The main DL approaches are CNN-based and GAN-based colorization. Recent innovati
    <br>
    <em>Conditiona GANs for image Colorization</em>
    </p>
+   ![image](https://github.com/user-attachments/assets/721bc236-34f9-4ae7-80f6-f226c505a091)
+
 
     - **Isola et al. (2017):** They introduced conditional GANs (cGANs), which map grayscale images to colored ones using paired data. They trained the generator to predict the chrominance values (a, b) conditioned on the grayscale image (L) and combined the adversarial loss (GAN loss) with an L1 loss for better results. This approach outputs sharp, realistic colorizations by leveraging both the low-level reconstruction error (L1 loss) and high-level perceptual quality (GAN loss).
       
