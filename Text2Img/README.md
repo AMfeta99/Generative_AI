@@ -26,6 +26,19 @@ This repository aims to experiment with SOTA methods for tex-to-img task. This j
   - [Results](#Results)
 - [Repository_files](#Repository_files)
 - [Acknowledgements](#Acknowledgements)
-
+<!--
 repo img: https://aiimagegenerator.in/
+https://huggingface.co/tasks/text-to-image
+https://abdulkaderhelwan.medium.com/text-to-image-generation-model-with-cnn-ca904427d1e7
+https://www.kaggle.com/code/stpeteishii/text-to-image-generation-by-stable-diffusion
+
+# review
+https://arxiv.org/pdf/2303.07909
+https://www.bentoml.com/blog/a-guide-to-open-source-image-generation-models  (imp)
+https://dominguezdaniel.medium.com/exploring-image-generative-ai-models-9359705b15d3
+https://medium.com/@aisagescribe/generative-ai-for-image-generation-sota-common-methods-bea0a70c9b81
+https://www.codementor.io/@kalpesh08/how-does-ai-turn-text-into-images-2amzolymx5
+https://arxiv.org/pdf/2309.00810
+https://arxiv.org/pdf/2303.07909
+-->
 
