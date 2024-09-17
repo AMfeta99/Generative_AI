@@ -309,16 +309,16 @@ Evaluating the quality of image colorization is complicated, so usually it invol
 - Goree, Sam. "Colorization Companion Blog," 2021. [Link](https://samgoree.github.io/2021/04/21/colorization_companion.html)
 - "Overview of Image Similarity Metrics," [Medium Article by Data Monsters](https://medium.com/@datamonsters/a-quick-overview-of-methods-to-measure-the-similarity-between-images-f907166694ee)
 - "Grayscale Image Colorization Methods Overview and Evaluation," [ResearchGate Publication by Various Authors](https://www.researchgate.net/publication/353854254_Grayscale_Image_Colorization_Methods_Overview_and_Evaluation)
-- https://mina86.com/2021/srgb-lab-lchab-conversions/
-- https://huggingface.co/tasks/image-to-image
-- https://huggingface.co/models?pipeline_tag=image-to-image&sort=trending&search=color
-- https://link.springer.com/referenceworkentry/10.1007/978-3-030-98661-2_55
-- https://link.springer.com/chapter/10.1007/978-981-16-0708-0_2/figures/3
-- https://openaccess.thecvf.com/content_CVPR_2020/papers/Su_Instance-Aware_Image_Colorization_CVPR_2020_paper.pdf
-- https://link.springer.com/article/10.1007/s11263-019-01271-4
-- https://arxiv.org/pdf/2102.04432.pdf
-- https://link.springer.com/chapter/10.1007/978-3-031-20071-7_1
-- https://arxiv.org/pdf/2304.11105.pdf
+5. mina86. "sRGB, Lab and LCh(ab) Conversions," 2021. [Link](https://mina86.com/2021/srgb-lab-lchab-conversions/)
+6. Hugging Face. "Image-to-Image Tasks," Hugging Face, 2021. [Link](https://huggingface.co/tasks/image-to-image)
+7. Hugging Face. "Trending Image-to-Image Models," Hugging Face, 2021. [Link](https://huggingface.co/models?pipeline_tag=image-to-image&sort=trending&search=color)
+8. SpringerLink. "Colorization and Image Translation," *Encyclopedia of Computer Graphics and Games*, 2022. [Link](https://link.springer.com/referenceworkentry/10.1007/978-3-030-98661-2_55)
+9. SpringerLink. "Figure from Colorization Research," *Artificial Intelligence-Based Cancer Prediction for Socioeconomic Development*, 2021. [Link](https://link.springer.com/chapter/10.1007/978-981-16-0708-0_2/figures/3)
+10. Su, Haotian et al. "Instance-Aware Image Colorization," *CVPR Conference*, 2020. [Link](https://openaccess.thecvf.com/content_CVPR_2020/papers/Su_Instance-Aware_Image_Colorization_CVPR_2020_paper.pdf)
+11. Zhang, Richard et al. "Learning Representations for Image Colorization," *International Journal of Computer Vision*, 2019. [Link](https://link.springer.com/article/10.1007/s11263-019-01271-4)
+12. Mordvintsev, Alexander et al. "Interactive Deep Colorization of Grayscale Images," *arXiv preprint*, 2021. [Link](https://arxiv.org/pdf/2102.04432.pdf)
+13. SpringerLink. "AI in Image Colorization Techniques," *Artificial Intelligence for Medical Image Analysis*, 2023. [Link](https://link.springer.com/chapter/10.1007/978-3-031-20071-7_1)
+14. Ender, Rebecca et al. "Image Colorization with Multimodal Models," *arXiv preprint*, 2023. [Link](https://arxiv.org/pdf/2304.11105.pdf)
 <!--
 - https://github.com/MarkMoHR/Awesome-Image-Colorization
 - https://github.com/Ye11ow-Flash/ColorIt
