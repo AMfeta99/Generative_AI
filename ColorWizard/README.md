@@ -208,6 +208,25 @@ Since 2020, several advanced versions and improvements using GANs have been prop
 
 - ### 5. Advanced Architectures
   **A) Diffusion-based Network**
+  
+    Diffusion models, known for generating realistic images by refining noise, are now being adapted for colorization.
+  
+    In this approach, the process starts with a grayscale image, and the model gradually adds color through an iterative refinement process. This method has great potential to produce high-quality colorizations, capturing subtle variations and details, leading to more realistic results.
+  <p align="center">
+   <img src="https://github.com/user-attachments/assets/94b72b61-3335-4662-b60d-82460e8c47f0" alt="diffusion-based" style="width:80%";>
+   <br>
+   <em>Improved Diffusion-based Image Colorization via Piggybacked Models (2023)</em></p>
+
+   The paper "Improved Diffusion-based Image Colorization via Piggybacked Models" introduces a novel colorization method using **diffusion models**. It leverages **pre-trained text-to-image diffusion models**, which are typically trained to generate images from text. By tapping into the model's knowledge of color and its **link to semantic concepts**, the process achieves more realistic colorization.
+
+  **Key components:**
+  
+     - **Diffusion Guider for Color Priors:** This extracts color information from the pre-trained model, aligning it with the grayscale image's content to create a color foundation.
+     - **Lightness-Aware VQ-VAE:** This architecture, aware of lightness details in the image, combines the grayscale input and color prior to generate the final colorized image, ensuring pixel-perfect alignment and avoiding artifacts.
+  
+    This approach benefits from the diffusion model's understanding of color semantics and allows for conditional colorization, where user input can guide color choices.
+  
+
   **B) Transformer-based Network**
 
 
@@ -278,6 +297,11 @@ Evaluating the quality of image colorization is complicated, so usually it invol
 - https://huggingface.co/models?pipeline_tag=image-to-image&sort=trending&search=color
 - https://link.springer.com/referenceworkentry/10.1007/978-3-030-98661-2_55
 - https://link.springer.com/chapter/10.1007/978-981-16-0708-0_2/figures/3
+- https://openaccess.thecvf.com/content_CVPR_2020/papers/Su_Instance-Aware_Image_Colorization_CVPR_2020_paper.pdf
+- https://link.springer.com/article/10.1007/s11263-019-01271-4
+- https://arxiv.org/pdf/2102.04432.pdf
+- https://link.springer.com/chapter/10.1007/978-3-031-20071-7_1
+- https://arxiv.org/pdf/2304.11105.pdf
 <!--
 - https://github.com/MarkMoHR/Awesome-Image-Colorization
 - https://github.com/Ye11ow-Flash/ColorIt
