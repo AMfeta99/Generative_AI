@@ -201,13 +201,14 @@ Since 2020, several advanced versions and improvements using GANs have been prop
   
   The paper "Pixelated Semantic Colorization" explores how understanding the semantic content of an image can improve colorization. It proposes a two-branch network that combines semantic understanding with colorization:
   
-    - **Semantic Understanding Branch:** This part of the model identifies objects and scene elements using techniques like semantic segmentation, understanding what’s in the image (e.g., sky, car).
+    - **Semantic Understanding Branch:** This part of the model identifies objects and scene elements using techniques like semantic segmentation, understanding what’s in the image.
     - **Pixel-Level Semantic Embedding:** The semantic information is transformed into a detailed pixel-level embedding, capturing the meaning of each pixel in the image.
     - **Colorization Guided by Semantics:** This semantic embedding is then used in the colorization process, helping the model predict appropriate colors based on the object or scene (e.g., making the sky blue).
 
 
-
 - ### 5. Advanced Architectures
+  **A) Diffusion-based Network**
+  **B) Transformer-based Network**
 
 
 
