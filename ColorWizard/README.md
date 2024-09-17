@@ -183,11 +183,11 @@ Since 2020, several advanced versions and improvements using GANs have been prop
   <br>
   <em>Instance-aware Image Colorization (2020)</em>
   </p>
- The paper "Instance-Aware Image Colorization" overcome this by detecting/segment objects in B/W img and colorize each of them individually. To do this separate networks are used to handle object-level and scene-level colorization as described:
+   The paper "Instance-Aware Image Colorization" overcome this by detecting/segment objects in B/W img and colorize each of them individually. To do this separate networks are used to handle object-level and scene-level colorization as described:
  
-  - **Object Detection:** The model first identifies and segments objects within the image, which provides a clear separation between different objects (like cars, trees, benches).
-  - **Feature Extraction:** Separate networks then extract features both at the object level (focusing on the properties of the specific object) and the image level (considering the overall scene).
-  - **Feature Fusion:** These two sets of features—object-specific and scene-wide—are intelligently combined. This fusion allows the model to make better color predictions based on both the object's likely color and the scene context.
+    - **Object Detection:** The model first identifies and segments objects within the image, which provides a clear separation between different objects (like cars, trees, benches).
+    - **Feature Extraction:** Separate networks then extract features both at the object level (focusing on the properties of the specific object) and the image level (considering the overall scene).
+    - **Feature Fusion:** These two sets of features—object-specific and scene-wide—are intelligently combined. This fusion allows the model to make better color predictions based on both the object's likely color and the scene context.
  
   **B) Semantic Information**
   <p align="center">
@@ -196,7 +196,7 @@ Since 2020, several advanced versions and improvements using GANs have been prop
   <em>Pixelated Semantic Colorization (2020)</em>
 </p>
 
-  
+  Understanding the overall context of an image is key to realistic colorization. Researchers now use scene segmentation to extract detailed labels, identifying not just objects but also materials (e.g., wood, grass) and scene elements (e.g., sky, ground). This richer semantic understanding helps colorization models make more accurate and context-aware color decisions, leading to more realistic and consistent results.
 
 - ### 5. Advanced Architectures
 
