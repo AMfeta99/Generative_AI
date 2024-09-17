@@ -292,12 +292,12 @@ Evaluating the quality of image colorization is complicated, so usually it invol
 -->
 ## Acknowledgements
 
-**1.** Adrian Rosebrock, "Black and White Image Colorization with OpenCV and Deep Learning," PyImageSearch, February 25, 2019. [Link](https://pyimagesearch.com/2019/02/25/black-and-white-image-colorization-with-opencv-and-deep-learning/)
-**2.** Weichen Pai, "Image Colorization: Bringing Black and White to Life," Medium, August 8, 2020. [Link](https://medium.com/@weichenpai/image-colorization-bringing-black-and-white-to-life-b14d3e0db763)
-**3.** [HuggingFace Colorization Datasets](https://huggingface.co/datasets?search=colorization): A collection of datasets available for image colorization tasks.
-**4.** Zhang, Richard, et al. "Colorization Using CNN" . [Link](https://richzhang.github.io/colorization/) (CNN approach).
-**5.** Vitoria, Patrícia, et al. "ChromaGAN: Adversarial Picture Colorization with Semantic Class Distribution," WACV 2020. [Link](https://openaccess.thecvf.com/content_WACV_2020/papers/Vitoria_ChromaGAN_Adversarial_Picture_Colorization_with_Semantic_Class_Distribution_WACV_2020_paper.pdf) (GANs Approach)
-**6.** Su, Jian, et al. "Instance-Aware Image Colorization," CVPR 2020. [Link](https://openaccess.thecvf.com/content_CVPR_2020/papers/Su_Instance-Aware_Image_Colorization_CVPR_2020_paper.pdf) (Tackles lack of semantic understanding and handles complex scenes with object detection).
+1. Adrian Rosebrock, "Black and White Image Colorization with OpenCV and Deep Learning," PyImageSearch, February 25, 2019. [Link](https://pyimagesearch.com/2019/02/25/black-and-white-image-colorization-with-opencv-and-deep-learning/)
+2. Weichen Pai, "Image Colorization: Bringing Black and White to Life," Medium, August 8, 2020. [Link](https://medium.com/@weichenpai/image-colorization-bringing-black-and-white-to-life-b14d3e0db763)
+3. [HuggingFace Colorization Datasets](https://huggingface.co/datasets?search=colorization): A collection of datasets available for image colorization tasks.
+4. Zhang, Richard, et al. "Colorization Using CNN" . [Link](https://richzhang.github.io/colorization/) (CNN approach).
+5. Vitoria, Patrícia, et al. "ChromaGAN: Adversarial Picture Colorization with Semantic Class Distribution," WACV 2020. [Link](https://openaccess.thecvf.com/content_WACV_2020/papers/Vitoria_ChromaGAN_Adversarial_Picture_Colorization_with_Semantic_Class_Distribution_WACV_2020_paper.pdf) (GANs Approach)
+6. Su, Jian, et al. "Instance-Aware Image Colorization," CVPR 2020. [Link](https://openaccess.thecvf.com/content_CVPR_2020/papers/Su_Instance-Aware_Image_Colorization_CVPR_2020_paper.pdf) (Tackles lack of semantic understanding and handles complex scenes with object detection).
 - Iizuka, Satoshi, et al. "Colorizing Images While Understanding Their Semantic Content," International Journal of Computer Vision (IJCV), 2019. [Link](https://link.springer.com/article/10.1007/s11263-019-01271-4)
 - Kumar, Ashish, et al. "Colorization Using Transformer," 2021. [Link](https://arxiv.org/pdf/2102.04432.pdf) (Transformer-based approach).
 - "Colorization with Deep Learning," Springer 2022. [Link](https://link.springer.com/chapter/10.1007/978-3-031-20071-7_1)
