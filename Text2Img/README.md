@@ -49,9 +49,12 @@ These models are trained on huge amounts of text and images from the internet, w
   Starting with a noisy image, the model slowly removes the noise over multiple steps. This process is guided by the text's latent representation, helping the model generate an image that matches the description.
 
 
-  **C) Diffusion Operator:**
+  **C) Diffusion Operator/Model:**
   
   At each step, a "diffusion operator" cleans up some noise from the image, getting closer to the final result. This process is repeated for a fixed number of steps until the final image is formed.
+
+
+Diffusion models are great for generating high-quality images with precise control over the style and content. They can produce images in different resolutions and aspect ratios, making them versatile. However, training these models is computationally expensive and requires a lot of data.
 
 <!-- Mehtods to implement
 https://abdulkaderhelwan.medium.com/text-to-image-generation-model-with-cnn-ca904427d1e7
