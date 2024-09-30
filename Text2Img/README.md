@@ -28,7 +28,7 @@ This repository aims to experiment with SOTA methods for tex-to-img task. This j
 - [Acknowledgements](#Acknowledgements)
 
 ## Literature
-**Text-to-image** models are a type of AI that can take a text description and create an image that match the description. These models work by using a language model to understand the text and then a generative model to create an image based on that understanding. Examples models for the task include DALL-E 2 and Imagen. Imagen, for instance, is a model developed by Google in 2022 that uses text encodings to guide image generation. Other examples models include DALL-E 2 and Imagen.
+**Text-to-image** models are a type of AI that can take a text description and create an image that match the description. These models work by using a language model to understand the text and then a generative model to create an image based on that understanding. Examples models for the task include **DALL-E 2**, **GLIDE** and **Imagen**. Imagen, for instance, is a model developed by Google in 2022 that uses text encodings to guide image generation.
 
 These models are trained on huge amounts of text and images from the internet, which helps them learn how to connect words with visual features. They’ve become so advanced that they can create very realistic images.
 
