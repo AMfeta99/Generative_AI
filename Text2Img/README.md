@@ -38,13 +38,19 @@ These models are trained on huge amounts of text and images from the internet, w
 - ### 2. Diffusion Models
   Diffusion models are a type of generative AI used in text-to-image tasks. The core idea behind these models is to gradually remove noise from an image to reveal its structure. Here's how they work:
 
+
    **A) Text Encoding:**
+  
   The input text is first transformed into a "latent representation" (a numerical form that captures the meaning of the text) using a text encoder.
 
+
   **B) Diffusion Process:**
+  
   Starting with a noisy image, the model slowly removes the noise over multiple steps. This process is guided by the text's latent representation, helping the model generate an image that matches the description.
 
+
   **C) Diffusion Operator:**
+  
   At each step, a "diffusion operator" cleans up some noise from the image, getting closer to the final result. This process is repeated for a fixed number of steps until the final image is formed.
 
 <!-- Mehtods to implement
