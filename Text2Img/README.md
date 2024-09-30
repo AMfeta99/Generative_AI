@@ -32,7 +32,14 @@ This repository aims to experiment with SOTA methods for tex-to-img task. This j
 
 These models are trained on huge amounts of text and images from the internet, which helps them learn how to connect words with visual features. They’ve become so advanced that they can create very realistic images.
 
+### SOTA_Overview
 
+- ### 1. AutoEncoder
+- ### 2. Diffusion Models
+
+<!-- Mehtods to implement
+https://abdulkaderhelwan.medium.com/text-to-image-generation-model-with-cnn-ca904427d1e7
+-->
 <!--
 repo img: https://aiimagegenerator.in/
 https://huggingface.co/tasks/text-to-image
