@@ -73,5 +73,11 @@ https://medium.com/@aisagescribe/generative-ai-for-image-generation-sota-common-
 https://www.codementor.io/@kalpesh08/how-does-ai-turn-text-into-images-2amzolymx5
 https://arxiv.org/pdf/2309.00810
 https://arxiv.org/pdf/2303.07909
+
+
+
+ilusao/puzzle
+https://www.youtube.com/watch?v=FMRi6pNAoag
+https://www.youtube.com/watch?v=b5nElEbbnfU
 -->
 
